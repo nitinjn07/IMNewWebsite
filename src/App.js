@@ -18,10 +18,9 @@ import Career from './pages/Career'
 export default function App() {
   return (
     <BrowserRouter>
-    <div className="app">
-      <Header />
-      
-      <main>
+   
+      <Header />     
+   
         <Routes>
           <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
@@ -37,11 +36,10 @@ export default function App() {
             <Route path="/resources" element={<Resources />} />
             <Route path="/contact-us" element={<Contact />} />
          
-        </Routes>
-      </main>
+        </Routes>     
 
       <Footer />
-    </div>
+    
   </BrowserRouter>
   )
 }
