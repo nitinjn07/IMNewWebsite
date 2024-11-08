@@ -62,7 +62,7 @@ export default function Insights() {
           {/*Start First service box*/}
           <div className="box service-box  h-100 wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".1s">
             
-                  <img src={"https://incubationmasters.com/WebPanel/uploads/events/" + item.event_img} style={{width:'100%',height:'250px'}} />
+                  <img src={"https://incubationmasters.com/WebPanel/uploads/event/" + item.event_img} style={{width:'100%',height:'250px'}} />
                   
             <div className="service-content">
               <h3 className="service-title py-2">{item.event_name}</h3>
