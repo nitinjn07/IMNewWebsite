@@ -3,16 +3,16 @@ import React from 'react'
 export default function FDICRM() {
   return (
     <>
-       <section class="d-flex align-items-center page-hero  inner-page-hero " id="page-hero">
+        <section class="d-flex align-items-center page-hero  inner-page-hero " id="page-hero">
       <div class="overlay-photo-image-bg parallax" data-bg-img="assets/images/hero/inner-page-hero.jpg" data-bg-opacity="1"></div>
       <div class="overlay-color" data-bg-opacity=".75"></div>
       <div class="container">
         <div class="hero-text-area centerd">
-          <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">Services </h1>
+          <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">FDI CRM </h1>
           <nav aria-label="breadcrumb ">
             <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
               <li class="breadcrumb-item"><a class="breadcrumb-link" href="#0"><i class="bi bi-house icon "></i>home</a></li>
-              <li class="breadcrumb-item active">services</li>
+              <li class="breadcrumb-item active">FDI CRM</li>
             </ul>
           </nav>
         </div>
@@ -26,18 +26,17 @@ export default function FDICRM() {
           <div className="col-12 col-lg-6 d-flex align-items-center order-1 order-lg-0 about-col pad-end  wow fadeInUp " data-wow-delay="0.6s">
             <div className="text-area ">
               <div className="sec-heading  light-title ">
-                <div className="content-area"><span className=" pre-title       wow fadeInUp " data-wow-delay=".2s">about Us</span>
-                  <h2 className=" title    wow fadeInUp" data-wow-delay=".4s"><span className="hollow-text">Change it to</span> Incubation Masters<span className="featured-text">  IM. <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7" /></svg></span></h2>
+                <div className="content-area"><span className=" pre-title       wow fadeInUp " data-wow-delay=".2s">FDI CRM</span>
+                  <h2 className=" title    wow fadeInUp" data-wow-delay=".4s"><span className="hollow-text">FDI CRM</span></h2>
                 </div>
               </div>
-                                      <p className=" about-text">
-                                      Incubation Masters is a mission based organisation and a global leader in cultivating innovation within the public and private sectors through our umbrella of services.
-
-
-                                      </p>
+                                      <h3>
+                                      FDi CRM - Redefining Investor Relationship Management
+                                      </h3>
                                       <p>
-                                      Incubation Masters is a global leader in cultivating innovation within the public and private sectors through our umbrella of services including Startup and Incubation support, specialized acceleration program for startups working in public sector solutions, angel investment, cross border innovation exchange, market access programs, trade and investment promotion to name a few. We also provide strategic advisory services to startups seeking to enhance their market positioning and operational efficiency. Our international wing IM Global specializes in facilitating market entry for startups worldwide, providing strategic insights and networks crucial for navigating diverse global markets.
-                                      </p>
+                                      Traditional CRM systems fall short when it comes to managing the intricate investor life-cycle that Economic Development Organizations (EDOs) and Investment Promotion Agencies (IPAs) encounter daily. Enter InterDiplom CRM, an integral component of our FDiMasters Suite.
+                  </p>
+                 
             
             </div>
           </div>
@@ -53,82 +52,69 @@ export default function FDICRM() {
   </section>
        <section className="services services-boxed mega-section  " id="services">
     <div className="container">
-      <div className="sec-heading  ">
-        <div className="content-area"><span className="pre-title wow fadeInUp " data-wow-delay=".2s">services</span>
-          <h2 className="title  wow fadeInUp" data-wow-delay=".4s"><span className="hollow-text">services</span> we offer
-          </h2>
-          <p className="subtitle  wow fadeInUp " data-wow-delay=".6s">At Incubation Masters, we are dedicated to driving innovation and fostering growth in the public and private sectors. As a global consulting leader, we offer a comprehensive suite of services designed to elevate local and global economic development.</p>
-        </div>
-        <div className="cta-area  wow fadeInUp" data-wow-delay=".8s"><a className="cta-btn btn-solid    ">see all <i className="bi bi-arrow-right icon " /></a></div>
-      </div>
+      
       <div className="row gx-4 gy-4 services-row ">
         <div className="col-12 col-md-6  col-lg-4 mx-auto ">
           {/*Start First service box*/}
-          <div className="box service-box  wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".1s">
+          <div className="box service-box  h-100 wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".1s">
             <div className="service-icon"><i className="flaticon-web-development font-icon" /></div><span className="service-num hollow-text">1 </span>
             <div className="service-content">
-              <h3 className="service-title">Incubation and Startup Consulting</h3>
-              <p className="service-text">Providing startups with tailored mentorship, resources, and strategic guidance to accelerate growth.</p>
-            </div><a className="read-more" href="service-single.html">read more<i className="bi bi-arrow-right icon " /></a>
+              <h3 className="service-title">A Holistic Approach to Investor Management</h3>
+                  <p className="service-text">
+                  InterDiplom CRM, unlike conventional solutions, empowers EDOs and IPAs to manage the entire investor life-cycle seamlessly. Our innovative platform is designed to help you not only attract new investments but also build and nurture invaluable investor relationships. It facilitates engagement with investors, enabling them to realize their full potential, and supports existing investors through robust aftercare and business retention and expansion (BRE) strategies.
+              </p>
+            </div>
           </div>
           {/* End First service box   */}
         </div>
         <div className="col-12 col-md-6  col-lg-4 mx-auto ">
           {/*Start Second service box*/}
-          <div className="box service-box  wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".2s">
+          <div className="box service-box  h-100 wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".2s">
             <div className="service-icon"><i className="flaticon-nanotechnology font-icon" /></div><span className="service-num hollow-text">2 </span>
             <div className="service-content">
-              <h3 className="service-title">Investment Promotion</h3>
-              <p className="service-text">Driving economic growth by connecting investors with high-potential opportunities and fostering a thriving investment ecosystem.</p>
-            </div><a className="read-more" href="service-single.html">read more<i className="bi bi-arrow-right icon " /></a>
+              <h3 className="service-title">Customization Without Hidden Costs</h3>
+                  <p className="service-text">
+                  What sets InterDiplom CRM apart is its intuitive design that allows for rapid customization. Tailor the system to align perfectly with your unique service offerings, without the burden of hidden costs. We believe in transparency and simplicity, ensuring that our platform aligns precisely with your organization's requirements.
+              </p>
+            </div>
           </div>
           {/* End Second service box*/}
         </div>
         <div className="col-12 col-md-6  col-lg-4 mx-auto  ">
           {/*Start Third service box*/}
-          <div className="box service-box  wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".3s">
+          <div className="box service-box  h-100 wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".3s">
             <div className="service-icon"><i className="flaticon-web-domain font-icon" /></div><span className="service-num hollow-text">3 </span>
             <div className="service-content">
-              <h3 className="service-title">Strategic Advisory to Governments </h3>
-              <p className="service-text">Offering expert advice to government bodies on policy, strategy, and economic development for impactful, sustainable growth.</p>
-            </div><a className="read-more" href="service-single.html">read more<i className="bi bi-arrow-right icon " /></a>
+              <h3 className="service-title">Streamlined Onboarding and Support</h3>
+                  <p className="service-text">
+                  We understand that adopting a new system can be challenging. That's why we've streamlined the process to make it as smooth as possible. With InterDiplom CRM, you can expect fast and easy onboarding, supported by our expert team. From system setup to data migration and training, every step is included in the license fee. We're here to ensure that your transition to our CRM solution is hassle-free.
+              </p>
+                </div>
+                
           </div>
           {/* End Third service box*/}
         </div>
         <div className="col-12 col-md-6  col-lg-4 mx-auto  ">
           {/*Start fourth service box*/}
-          <div className="box service-box  wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".4s">
+          <div className="box service-box  h-100 wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".4s">
             <div className="service-icon"><i className="flaticon-profile font-icon" /></div><span className="service-num hollow-text">4 </span>
             <div className="service-content">
-              <h3 className="service-title">International Market Entry Assistance</h3>
-              <p className="service-text">Guiding businesses through market research, strategy, and connections to successfully enter and expand in global markets.</p>
-            </div><a className="read-more" href="service-single.html">read more<i className="bi bi-arrow-right icon " /></a>
+              <h3 className="service-title">Your Partner in Investor Success</h3>
+                  <p className="service-text">
+                  InterDiplom CRM isn't just a tool; it's a strategic partner in your mission to drive economic growth and attract investments. We provide you with the capabilities and support you need to manage investors effectively, nurturing relationships, and maximizing aftercare efforts.
+              </p>
+            </div>
           </div>
           {/* End fourth service box   */}
         </div>
-        <div className="col-12 col-md-6  col-lg-4 mx-auto  ">
-          {/*Start 5th service box*/}
-          <div className="box service-box  wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".5s">
-            <div className="service-icon"><i className="flaticon-search font-icon" /></div><span className="service-num hollow-text">5 </span>
-            <div className="service-content">
-              <h3 className="service-title">Fundraising Support through IM Angels</h3>
-              <p className="service-text">Connecting startups with a network of investors to secure essential funding and fuel their growth journeys.</p>
-            </div><a className="read-more" href="service-single.html">read more<i className="bi bi-arrow-right icon " /></a>
+        
+        
           </div>
-          {/* End 5th service box*/}
+          <div class="row">
+            <div class="col-md-12">
+              <h2 className="text-center">Choose InterDiplom CRM as your trusted companion in redefining investor relationship management. Join us in the pursuit of excellence, where investor success is the ultimate goal.</h2>
+            </div>
         </div>
-        <div className="col-12 col-md-6  col-lg-4 mx-auto  ">
-          {/*Start 6th service box*/}
-          <div className="box service-box  wow fadeInUp  reveal-start" data-wow-offset={0} data-wow-delay=".6s">
-            <div className="service-icon"><i className="flaticon-strategy font-icon" /></div><span className="service-num hollow-text">6 </span>
-            <div className="service-content">
-              <h3 className="service-title">Curated Cohorts for Public Sector</h3>
-              <p className="service-text">Building tailored programs to address specific public sector needs, enhancing innovation and collaborative solutions.</p>
-            </div><a className="read-more" href="service-single.html">read more<i className="bi bi-arrow-right icon " /></a>
-          </div>
-          {/* End 6th service box*/}
-        </div>
-      </div>
     </div>
   </section>
     </>

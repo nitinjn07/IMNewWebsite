@@ -8,11 +8,11 @@ export default function FDIInstitute() {
       <div class="overlay-color" data-bg-opacity=".75"></div>
       <div class="container">
         <div class="hero-text-area centerd">
-          <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">Services </h1>
+          <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">FDI Institute </h1>
           <nav aria-label="breadcrumb ">
             <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
               <li class="breadcrumb-item"><a class="breadcrumb-link" href="#0"><i class="bi bi-house icon "></i>home</a></li>
-              <li class="breadcrumb-item active">services</li>
+              <li class="breadcrumb-item active">FDI Institute</li>
             </ul>
           </nav>
         </div>
@@ -27,17 +27,18 @@ export default function FDIInstitute() {
             <div className="text-area ">
               <div className="sec-heading  light-title ">
                 <div className="content-area"><span className=" pre-title       wow fadeInUp " data-wow-delay=".2s">about Us</span>
-                  <h2 className=" title    wow fadeInUp" data-wow-delay=".4s"><span className="hollow-text">Change it to</span> Incubation Masters<span className="featured-text">  IM. <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7" /></svg></span></h2>
+                  <h2 className=" title    wow fadeInUp" data-wow-delay=".4s"><span className="hollow-text">FDI Institute</span></h2>
                 </div>
               </div>
-                                      <p className=" about-text">
-                                      Incubation Masters is a mission based organisation and a global leader in cultivating innovation within the public and private sectors through our umbrella of services.
-
-
-                                      </p>
+                                      <h3>
+                                      Introducing the FDi Institute - Empowering Economic Development Professionals
+                                      </h3>
                                       <p>
-                                      Incubation Masters is a global leader in cultivating innovation within the public and private sectors through our umbrella of services including Startup and Incubation support, specialized acceleration program for startups working in public sector solutions, angel investment, cross border innovation exchange, market access programs, trade and investment promotion to name a few. We also provide strategic advisory services to startups seeking to enhance their market positioning and operational efficiency. Our international wing IM Global specializes in facilitating market entry for startups worldwide, providing strategic insights and networks crucial for navigating diverse global markets.
-                                      </p>
+                                      Working as an economic development professional is an intricate and demanding endeavor. It necessitates not only a profound understanding of market dynamics and industry trends but also a keen insight into corporate strategies and how these intricate elements interconnect on a daily basis.
+                  </p>
+                  <p>
+                  At InterDiplom Masters, we recognize the challenges and complexities that economic development professionals face. To empower you with the knowledge and skills essential for success, we proudly present the FDi Institute—an integral component of our FDiMasters Suite.
+                   </p>
             
             </div>
           </div>
@@ -53,82 +54,92 @@ export default function FDIInstitute() {
   </section>
        <section className="services services-boxed mega-section  " id="services">
     <div className="container">
-      <div className="sec-heading  ">
-        <div className="content-area"><span className="pre-title wow fadeInUp " data-wow-delay=".2s">services</span>
-          <h2 className="title  wow fadeInUp" data-wow-delay=".4s"><span className="hollow-text">services</span> we offer
-          </h2>
-          <p className="subtitle  wow fadeInUp " data-wow-delay=".6s">At Incubation Masters, we are dedicated to driving innovation and fostering growth in the public and private sectors. As a global consulting leader, we offer a comprehensive suite of services designed to elevate local and global economic development.</p>
-        </div>
-        <div className="cta-area  wow fadeInUp" data-wow-delay=".8s"><a className="cta-btn btn-solid    ">see all <i className="bi bi-arrow-right icon " /></a></div>
-      </div>
+      
       <div className="row gx-4 gy-4 services-row ">
         <div className="col-12 col-md-6  col-lg-4 mx-auto ">
           {/*Start First service box*/}
-          <div className="box service-box  wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".1s">
+          <div className="box service-box  h-100 wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".1s">
             <div className="service-icon"><i className="flaticon-web-development font-icon" /></div><span className="service-num hollow-text">1 </span>
             <div className="service-content">
-              <h3 className="service-title">Incubation and Startup Consulting</h3>
-              <p className="service-text">Providing startups with tailored mentorship, resources, and strategic guidance to accelerate growth.</p>
-            </div><a className="read-more" href="service-single.html">read more<i className="bi bi-arrow-right icon " /></a>
+              <h3 className="service-title">Elevating Expertise</h3>
+                  <p className="service-text">
+                  The FDi Institute is your gateway to practical tools and resources designed to enhance your proficiency and expertise as an economic developer. It is a subscription service meticulously crafted to cater to the unique needs of professionals like you, who are committed to driving economic growth and investment attraction.
+              </p>
+            </div>
           </div>
           {/* End First service box   */}
         </div>
         <div className="col-12 col-md-6  col-lg-4 mx-auto ">
           {/*Start Second service box*/}
-          <div className="box service-box  wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".2s">
+          <div className="box service-box  h-100 wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".2s">
             <div className="service-icon"><i className="flaticon-nanotechnology font-icon" /></div><span className="service-num hollow-text">2 </span>
             <div className="service-content">
-              <h3 className="service-title">Investment Promotion</h3>
-              <p className="service-text">Driving economic growth by connecting investors with high-potential opportunities and fostering a thriving investment ecosystem.</p>
-            </div><a className="read-more" href="service-single.html">read more<i className="bi bi-arrow-right icon " /></a>
+              <h3 className="service-title">A Comprehensive Learning Platform</h3>
+                  <p className="service-text">
+                  Our platform covers a wide spectrum of essential subjects, from investment promotion best practices and marketing strategies to understanding value propositions, lead generation techniques, and the intricacies of facilitating investments. We provide comprehensive resources that equip you with the knowledge and tools required for successful business retention and expansion (aftercare) services.
+              </p>
+            </div>
           </div>
           {/* End Second service box*/}
         </div>
         <div className="col-12 col-md-6  col-lg-4 mx-auto  ">
           {/*Start Third service box*/}
-          <div className="box service-box  wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".3s">
+          <div className="box service-box  h-100 wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".3s">
             <div className="service-icon"><i className="flaticon-web-domain font-icon" /></div><span className="service-num hollow-text">3 </span>
             <div className="service-content">
-              <h3 className="service-title">Strategic Advisory to Governments </h3>
-              <p className="service-text">Offering expert advice to government bodies on policy, strategy, and economic development for impactful, sustainable growth.</p>
-            </div><a className="read-more" href="service-single.html">read more<i className="bi bi-arrow-right icon " /></a>
+              <h3 className="service-title">Professional Certification</h3>
+              <p className="service-text">Subscribers to the FDi Institute not only gain access to a wealth of knowledge but also have the opportunity to earn professional certifications. These certifications are a testament to your expertise and dedication to your field, enhancing your credibility in the industry.</p>
+                </div>
+                
           </div>
           {/* End Third service box*/}
         </div>
         <div className="col-12 col-md-6  col-lg-4 mx-auto  ">
           {/*Start fourth service box*/}
-          <div className="box service-box  wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".4s">
+          <div className="box service-box  h-100 wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".4s">
             <div className="service-icon"><i className="flaticon-profile font-icon" /></div><span className="service-num hollow-text">4 </span>
             <div className="service-content">
-              <h3 className="service-title">International Market Entry Assistance</h3>
-              <p className="service-text">Guiding businesses through market research, strategy, and connections to successfully enter and expand in global markets.</p>
-            </div><a className="read-more" href="service-single.html">read more<i className="bi bi-arrow-right icon " /></a>
+              <h3 className="service-title">Cutting-Edge Insights</h3>
+                  <p className="service-text">
+                    In addition to the valuable training and certification, subscribers benefit from exclusive access to specially developed report content. Stay updated with the latest industry insights, policy advancements, and practical strategies. Our platform offers a direct connection to our team's most recent thinking on issues ranging from policy development to hands-on practices.
+              </p>
+            </div>
           </div>
           {/* End fourth service box   */}
         </div>
         <div className="col-12 col-md-6  col-lg-4 mx-auto  ">
           {/*Start 5th service box*/}
-          <div className="box service-box  wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".5s">
+          <div className="box service-box  h-100 wow fadeInUp reveal-start" data-wow-offset={0} data-wow-delay=".5s">
             <div className="service-icon"><i className="flaticon-search font-icon" /></div><span className="service-num hollow-text">5 </span>
             <div className="service-content">
-              <h3 className="service-title">Fundraising Support through IM Angels</h3>
-              <p className="service-text">Connecting startups with a network of investors to secure essential funding and fuel their growth journeys.</p>
-            </div><a className="read-more" href="service-single.html">read more<i className="bi bi-arrow-right icon " /></a>
+              <h3 className="service-title">Personal and Organizational Enhancement</h3>
+                  <p className="service-text">
+                  The FDi Institute isn't just about personal growth; it's an opportunity for your entire organization to excel. It enables your team to update and refresh critical knowledge and skills, ultimately enhancing both personal and organizational effectiveness. By investing in your professional development, you're investing in your organization's success.
+              </p>
+            </div>
           </div>
           {/* End 5th service box*/}
         </div>
         <div className="col-12 col-md-6  col-lg-4 mx-auto  ">
           {/*Start 6th service box*/}
-          <div className="box service-box  wow fadeInUp  reveal-start" data-wow-offset={0} data-wow-delay=".6s">
+          <div className="box service-box h-100 wow fadeInUp  reveal-start" data-wow-offset={0} data-wow-delay=".6s">
             <div className="service-icon"><i className="flaticon-strategy font-icon" /></div><span className="service-num hollow-text">6 </span>
             <div className="service-content">
-              <h3 className="service-title">Curated Cohorts for Public Sector</h3>
-              <p className="service-text">Building tailored programs to address specific public sector needs, enhancing innovation and collaborative solutions.</p>
-            </div><a className="read-more" href="service-single.html">read more<i className="bi bi-arrow-right icon " /></a>
+              <h3 className="service-title">Join Us in the Pursuit of Excellence</h3>
+                  <p className="service-text">
+                  The FDi Institute is your companion on the journey to excellence in economic development. Whether you're an industry veteran or just beginning your career, our platform provides the knowledge, certification, and resources to help you thrive in this dynamic field.
+              </p>
+            </div>
           </div>
           {/* End 6th service box*/}
         </div>
-      </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <h2 className="text-center">Embrace the future of economic development with the FDi Institute
+              —a testament to our commitment to your success.</h2>
+            </div>
+          </div>
     </div>
   </section>
     </>
