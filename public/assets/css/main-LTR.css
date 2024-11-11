@@ -1847,7 +1847,7 @@ body.rounded-btns .read-more {
   left: 0;
   z-index: 1030;
   border-bottom: 1px solid transparent;
-  background: #09bcf4;
+  background: #060922;
 }
 .is-sticky.header-basic {
   background-color: var(--clr-main);

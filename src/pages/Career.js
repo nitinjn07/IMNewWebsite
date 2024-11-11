@@ -24,24 +24,12 @@ export default function Career() {
       <div className="container">
         {/* Start first about div*/}
         <div className="content-block  ">
-          <div className="row">
-            <div className="col-12 col-lg-6 d-flex align-items-center order-1 order-lg-0 about-col pad-end  wow fadeInUp " data-wow-delay="0.6s">
-              <div className="text-area ">
-                <div className="sec-heading  light-title ">
-                  <div className="content-area"><span className=" pre-title       wow fadeInUp " data-wow-delay=".2s">Career</span>
-                    <h2 className=" title    wow fadeInUp" data-wow-delay=".4s"><span className="hollow-text">Career</span></h2>
-                  </div>
-                </div>
-                                       
-              
+            <div class="row">
+              <div className='col-md-12'>
+                
               </div>
-            </div>
-            <div className="col-12 col-lg-6 d-flex align-items-center order-0 order-lg-1 about-col  wow fadeInUp" data-wow-delay="0.2s">
-              <div className="img-area  " data-tilt>
-                <div className="image   "><img className="about-img img-fluid " loading="lazy" src="/assets/assets/images/about/1.png" alt="Our vision" /></div>
-              </div>
-            </div>
-          </div>
+           </div>
+           
         </div>
         {/*End first about div*/}
       </div>

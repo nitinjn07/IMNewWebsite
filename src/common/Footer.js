@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -6,7 +7,7 @@ export default function Footer() {
   <div className="overlay-photo-image-bg" data-bg-img="./assets/assets/images/sections-bg-images/footer-bg-1.jpg" data-bg-opacity=".25" />
   <div className="container">
     <div className="row footer-cols">
-      <div className="col-12 col-md-8 col-lg-4  footer-col "><img className="img-fluid footer-logo" loading="lazy" src="./assets/assets/images/logo/logo-colored.png" alt="logo" />
+      <div className="col-12 col-md-8 col-lg-4  footer-col "><img className="img-fluid footer-logo" loading="lazy" src="./assets/assets/images/logo/logo-light.png" alt="logo" />
         <div className="footer-col-content-wrapper">
          
         </div>
@@ -28,15 +29,15 @@ export default function Footer() {
         <h2 className=" footer-col-title    ">useful links</h2>
         <div className="footer-col-content-wrapper">
           <ul className="footer-menu ">
-            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><a className="footer-menu-link" href="#0">About Us</a>
+            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><Link className="footer-menu-link" to="/about">About Us</Link>
             </li>
-            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><a className="footer-menu-link" href="#0">Insights</a>
+            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><Link className="footer-menu-link" to="/insights">Insights</Link>
             </li>
-            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><a className="footer-menu-link" href="#0">Career</a>
+            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><Link className="footer-menu-link" to="/career">Career</Link>
             </li>
-            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><a className="footer-menu-link" href="#0">Resources</a>
+            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><Link className="footer-menu-link" to="/resources">Resources</Link>
                 </li>
-                <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><a className="footer-menu-link" href="#0">Contact Us</a>
+                <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><Link className="footer-menu-link" to="/contact-us">Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -45,13 +46,13 @@ export default function Footer() {
         <h2 className=" footer-col-title    ">Resources</h2>
         <div className="footer-col-content-wrapper">
           <ul className="footer-menu">
-            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><a className="footer-menu-link" href="#0">FDI</a>
+            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><Link className="footer-menu-link" to="/fdi-institute">FDI</Link>
             </li>
-            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><a className="footer-menu-link" href="#0">FDI CRM</a>
+            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><Link className="footer-menu-link" to="/fdi-crm">FDI CRM</Link>
             </li>
-            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><a className="footer-menu-link" href="#0">Trade Intelligence Plateform</a>
+            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><Link className="footer-menu-link" to="/trade-intelligence-plateform">Trade Intelligence Plateform</Link>
             </li>
-            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><a className="footer-menu-link" href="#0">FDI Intelligence Plateform</a>
+            <li className="footer-menu-item"><i className="bi bi-arrow-right icon " /><Link className="footer-menu-link" to="/fdi-intelligence-plateform">FDI Intelligence Plateform</Link>
             </li>
           </ul>
         </div>

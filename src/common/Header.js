@@ -17,15 +17,14 @@ export default function Header() {
     </div>
     <div class="container">
       <nav class="menu-navbar">
-        <div class="header-logo"><Link class="logo-link" to="/"><img class="logo-img light-logo" loading="lazy" src="./assets/assets/images/logo/logo-light.png" alt="logo"/><img class="logo-img  dark-logo" loading="lazy" src="./assets/assets/images/logo/logo-dark.png" alt="logo"/></Link></div>
+          <div class="header-logo"><Link class="logo-link" to="/"><img class="logo-img light-logo" loading="lazy" src="./assets/assets/images/logo/logo-light.png" alt="logo" style={{ width: '50px'}}/><img class="logo-img  dark-logo" loading="lazy" src="./assets/assets/images/logo/logo-dark.png" alt="logo" style={{ width: '50px'}} /></Link></div>
         <div class="links menu-wrapper ">
             <ul class="list-js links-list">
             <li class="menu-item"><Link class="menu-link  " to="/About">About IM </Link></li>
             <li class="menu-item has-sub-menu"><Link class="menu-link   active" to="#0">Services <i class="fas fa-plus  plus-icon"> </i></Link>
               <ul class="sub-menu ">
                 <li class="menu-item sub-menu-item"><Link class="menu-link sub-menu-link" to="/our-offerings">Our Offerings</Link></li>
-                <li class="menu-item sub-menu-item"><Link class="menu-link sub-menu-link" to="/startup-idea-validator-tools">Startup Idea Validator Tools</Link></li>
-                <li class="menu-item sub-menu-item"><Link class="menu-link sub-menu-link" to="/business-model-generator">Business Model Generator</Link></li>
+                
                
               </ul>
             </li>
@@ -42,19 +41,17 @@ export default function Header() {
               <li class="menu-item"><Link class="menu-link  " to="/Career">Career </Link></li>
               <li class="menu-item"><Link class="menu-link  " to="/resources">Resouces </Link></li>
             
-            <li class="menu-item"><Link class="menu-link  " to="/contact-us">Contact us </Link></li>
+            <li class="menu-item"><Link class="menu-link  " to="/contact-us">elevate by IM </Link></li>
           </ul>
         </div>
         <div class="controls-box">
           
           <div class="control  menu-toggler"><span></span><span></span><span></span></div>
           
-          <div class="control header-search-btn"><i class="bi bi-search icon"></i></div>
+            
+            <div class="control header-search-btn"><i class="fa fa-user"></i></div>
           
-          <div class="mode-switcher ">
-            <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
-            <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
-          </div>
+         
           
         </div>
       </nav>
