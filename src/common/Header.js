@@ -37,11 +37,11 @@ export default function Header() {
                   <li class="menu-item sub-menu-item"><Link class="menu-link sub-menu-link" to="fdi-intelligence-plateform">FDI Intelligence Plateform</Link></li>
               </ul>
               </li>
-              <li class="menu-item"><Link class="menu-link  " to="/insights">Insights </Link></li>
+              <li class="menu-item"><Link class="menu-link  " to="/Insights">Insights </Link></li>
               <li class="menu-item"><Link class="menu-link  " to="/Career">Career </Link></li>
-              <li class="menu-item"><Link class="menu-link  " to="/resources">Resouces </Link></li>
+              <li class="menu-item"><Link class="menu-link  " to="/Resources">Resouces </Link></li>
             
-            <li class="menu-item"><Link class="menu-link  " to="/contact-us">elevate by IM </Link></li>
+            <li class="menu-item"><Link class="menu-link  " to="/elevate-by-im">elevate by IM </Link></li>
           </ul>
         </div>
         <div class="controls-box">

@@ -15,6 +15,7 @@ import Insights from './pages/Insights'
 import Resources from './pages/Resources'
 import Contact from './pages/Contact'
 import Career from './pages/Career'
+import Elevate from './pages/Elevate'
 export default function App() {
   return (
     <BrowserRouter>
@@ -34,7 +35,8 @@ export default function App() {
             <Route path="/insights" element={<Insights />} />
             <Route path="/Career" element={<Career />} />
             <Route path="/resources" element={<Resources />} />
-            <Route path="/contact-us" element={<Contact />} />
+        <Route path="/contact-us" element={<Contact />} />
+        <Route path="/elevate-by-im" element={<Elevate />} />
          
         </Routes>     
 
