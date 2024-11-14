@@ -42,7 +42,7 @@ export default function Alpha() {
           <div className="container">
             <div className="row">
               <div class="col-md-8 mx-auto">
-                <div className="card border-0">
+                <div className="card border-0" id="signup">
                   <div
                     className="card-header"
                     style={{ background: "#09aff4" }}
@@ -90,12 +90,46 @@ export default function Alpha() {
                         >
                           {" "}
                           <option value="">Country Name</option>
-                          <option value="India">India</option>
                           <option value="Indonesia">Indonesia</option>
                           <option value="Malaysia">Malaysia</option>
                           <option value="Thailand">Thailand</option>
                         </select>
                         <label>Country Name</label>
+                      </div>
+                      <div class="form-floating mb-3 mt-3">
+                        <select
+                          id="industry"
+                          className="form-control"
+                          name="industry"
+                        >
+                          <option value="">Select Industry</option>
+                          <option value="technology">Technology</option>
+                          <option value="finance">Finance</option>
+                          <option value="healthcare">Healthcare</option>
+                          <option value="education">Education</option>
+                          <option value="manufacturing">Manufacturing</option>
+                          <option value="retail">Retail</option>
+                          <option value="transportation">Transportation</option>
+                          <option value="energy">Energy</option>
+                          <option value="entertainment">Entertainment</option>
+                          <option value="construction">Construction</option>
+                          <option value="other">Other</option>
+                        </select>
+                        <label>Industry</label>
+                      </div>
+                      <div class="form-floating mb-3 mt-3">
+                        <select
+                          id="stage"
+                          className="form-control"
+                          name="stage"
+                        >
+                          <option value="">Select Stage</option>
+                          <option value="ideation">IDEATION</option>
+                          <option value="mvp">MVP</option>
+                          <option value="pmf">PMF</option>
+                          <option value="growth">GROWTH</option>
+                        </select>
+                        <label>Industry</label>
                       </div>
                       <div class="form-floating mb-3 mt-3">
                         <input
