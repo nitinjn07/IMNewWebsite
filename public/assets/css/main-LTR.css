@@ -5305,3 +5305,52 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
 /*    End dark theme rules  *//*# sourceMappingURL=main-LTR.css.map */
 
 
+#signup 
+{
+   background: none;
+}
+#signup .form-control,select 
+{
+  background:none;
+  border-radius: 0px;
+  border: 1px solid grey;
+  height: 60px;
+}
+#signup .form-control::placeholder 
+{
+  color: white;
+}
+
+#signup .form-control
+{
+  color:white;
+}
+#signup option {
+  background: #060922;
+}
+
+
+
+#signin 
+{
+   background: none;
+}
+#signin .form-control,select 
+{
+  background:none;
+  border-radius: 0px;
+  border: 1px solid grey;
+  height: 60px;
+}
+#signin .form-control::placeholder 
+{
+  color: white;
+}
+
+#signin .form-control
+{
+  color:white;
+}
+#signin option {
+  background: #060922;
+}

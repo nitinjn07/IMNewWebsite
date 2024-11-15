@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 export default function Login() {
   return (
@@ -41,7 +41,7 @@ export default function Login() {
           <div className="pattern-bottom-start-dir" />
           <div className="container">
             <div className="row">
-              <div class="col-md-8 mx-auto">
+              <div class="col-md-10 mx-auto">
                 <div className="card border-0" id="signin">
                   <div
                     className="card-header"
@@ -56,31 +56,31 @@ export default function Login() {
                   </div>
                   <div class="card-body">
                     <form>
-                      <div class="form-floating mb-3 mt-3">
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="username"
-                          placeholder="Enter username"
-                          name="username"
-                        />
-                        <label for="startup name">Username</label>
-                      </div>
+                      <div className="row">
+                        <div class="form-group mb-3 mt-3 col-md-6">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="username"
+                            placeholder="Enter username"
+                            name="username"
+                          />
+                        </div>
 
-                      <div class="form-floating mb-3 mt-3">
-                        <input
-                          type="password"
-                          class="form-control"
-                          placeholder="Password"
-                        />
-                        <label>Password</label>
-                      </div>
-                      <div className="form-group">
-                        <input
-                          type="submit"
-                          className="btn btn-solid"
-                          value="Login"
-                        />
+                        <div class="form-group mb-3 mt-3 col-md-6">
+                          <input
+                            type="password"
+                            class="form-control"
+                            placeholder="Password"
+                          />
+                        </div>
+                        <div className="form-group">
+                          <input
+                            type="submit"
+                            className="btn btn-solid"
+                            value="Login"
+                          />
+                        </div>
                       </div>
                     </form>
                   </div>
