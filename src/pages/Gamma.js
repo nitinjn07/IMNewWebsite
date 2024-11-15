@@ -222,20 +222,7 @@ export default function Gamma() {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-12 my-5">
-                  <h2 class="text-center">Checklist for Moving to Sigma</h2>
-                  <ul>
-                    <li>Secured initial customers and revenue.</li>
-                    <li>
-                      Developed a detailed financial plan and projections.
-                    </li>
-                    <li>Built a basic team with defined roles.</li>
-                    <li>Created a solid customer acquisition strategy.</li>
-                    <li>
-                      Established a legal structure and registered the company.
-                    </li>
-                  </ul>
-                </div>
+
                 <div class="col-md-12 text-center">
                   <button class="cta-btn btn-solid">Subscribe Now</button>
                 </div>

@@ -232,21 +232,7 @@ export default function Sigma() {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-12 my-5">
-                  <h2 class="text-center">Checklist for Success</h2>
-                  <ul>
-                    <li>
-                      Achieved measurable growth in customer base and revenue.
-                    </li>
-                    <li>Developed a strategy for expansion.</li>
-                    <li>
-                      Understood termsheet, valuation and calculate valuation of
-                      your startup
-                    </li>
-                    <li>Successfully pitched to at least 5 investors.</li>
-                    <li>Established a strong leadership team and culture</li>
-                  </ul>
-                </div>
+
                 <div class="col-md-12 text-center">
                   <button class="cta-btn btn-solid">Subscribe Now</button>
                 </div>

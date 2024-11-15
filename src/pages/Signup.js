@@ -95,16 +95,10 @@ export default function Alpha() {
             <div className="row">
               <div class="col-md-10 mx-auto">
                 <div className="card border-0" id="signup">
-                  <div
-                    className="card-header"
-                    style={{ background: "#09aff4" }}
-                  >
-                    <Link to="/Signup" className="btn btn-solid">
-                      Signup
-                    </Link>
-                    <Link to="/Login" className="btn btn-solid bg-dark mx-3">
-                      Login
-                    </Link>
+                  <div className="card-header">
+                    <h2 className="text-white text-center">
+                      Startup <span style={{ color: "#09aff4" }}>Signup</span>
+                    </h2>
                   </div>
                   <div class="card-body">
                     <form onSubmit={handleSubmit}>

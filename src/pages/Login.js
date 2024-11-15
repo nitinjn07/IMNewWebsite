@@ -43,13 +43,7 @@ export default function Login() {
             <div className="row">
               <div class="col-md-10 mx-auto">
                 <div className="card border-0" id="signin">
-                  <div
-                    className="card-header"
-                    style={{ background: "#09aff4" }}
-                  >
-                    <Link to="/Signup" className="btn btn-solid">
-                      Signup
-                    </Link>
+                  <div className="card-header">
                     <Link to="/Login" className="btn btn-solid bg-dark mx-3">
                       Login
                     </Link>

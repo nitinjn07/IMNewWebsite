@@ -198,18 +198,7 @@ export default function Beta() {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-12 my-5">
-                  <h2 class="text-center">Checklist for Moving to Gamma</h2>
-                  <ul>
-                    <li>Completed MLP with initial users feedback.</li>
-                    <li>
-                      Signoff from founders and mentors for the successful MLP
-                      launch and feedback.
-                    </li>
-                    <li>Developed a basic branding strategy.</li>
-                    <li>Refined&nbsp; marketing plan for initial outreach.</li>
-                  </ul>
-                </div>
+
                 <div class="col-md-12 text-center">
                   <button class="cta-btn btn-solid">Subscribe Now</button>
                 </div>

@@ -227,24 +227,7 @@ export default function Alpha() {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-12 my-5">
-                  <h2 class="text-center">Checklist for Moving to Beta</h2>
-                  <ul>
-                    <li>
-                      Completed idea validation with feedback from potential
-                      customers.
-                    </li>
-                    <li>Developed a preliminary business model canvas.</li>
-                    <li>
-                      Participated in at least two networking events (virtual)
-                    </li>
-                    <li>
-                      Received positive feedback from at least one mentor or
-                      advisor.
-                    </li>
-                    <li>ESM should be at least 50</li>
-                  </ul>
-                </div>
+
                 <div class="col-md-12 text-center">
                   <Link to="/Signup" class="cta-btn btn-solid">
                     Subscribe Now
