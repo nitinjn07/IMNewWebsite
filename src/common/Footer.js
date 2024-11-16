@@ -22,7 +22,7 @@ export default function Footer() {
               <div className="footer-col-content-wrapper"></div>
               <div className="form-area ">
                 <div className="mailchimp-form ">
-                  <form className="one-field-form" method="post" action="#0">
+                  <form className="one-field-form" action="/ThankYou">
                     <div className="field-group ">
                       <label className="email-label" htmlFor="email-input">
                         {" "}

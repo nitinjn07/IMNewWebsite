@@ -521,7 +521,7 @@ export default function Home() {
                             >
                               <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7" />
                             </svg>
-                          </span>{" "}
+                          </span>
                           with us
                         </h2>
                       </div>
@@ -532,7 +532,7 @@ export default function Home() {
                       tools, strategies, and insights needed to succeed.
                     </p>
                     <div className="info-items-list">
-                      <div className="row ">
+                      <div className="row">
                         <div className="col-12 ">
                           <div className="info-item">
                             <span className="info-number ">01.</span>
@@ -674,84 +674,12 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* End  stats Section*/}
-        {/* Start  portfolio-slider Section*/}
 
-        {/* End  portfolio-slider Section*/}
-        {/* Start  our-clients Section*/}
         <section
           className="our-clients  mega-section   wow fadeInUp"
           id="our-clients"
           data-wow-delay="0.2s"
-        >
-          <div className="container">
-            <div className="sec-heading   centered ">
-              <div className="content-area">
-                <h2 className=" title    wow fadeInUp" data-wow-delay=".4s">
-                  OUR CUSTOMERS
-                </h2>
-              </div>
-            </div>
-            <div className=" clients-logos ">
-              {/*Swiper*/}
-              <div className="swiper-container">
-                <div
-                  className="swiper-wrapper clients-logo-wrapper wow fadeIn "
-                  data-wow-delay=".02s"
-                >
-                  <div className="swiper-slide">
-                    <div className="client-logo  ">
-                      <a href="#0">
-                        <img
-                          className="img-fluid logo "
-                          loading="lazy"
-                          src="./assets/assets/images/clients-logos/1.png"
-                          alt=" "
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="client-logo ">
-                      <a href="#0">
-                        <img
-                          className="img-fluid logo "
-                          loading="lazy"
-                          src="./assets/assets/images/clients-logos/2.png"
-                          alt=" "
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="client-logo ">
-                      <a href="#0">
-                        <img
-                          className="img-fluid logo "
-                          loading="lazy"
-                          src="./assets/assets/images/clients-logos/3.png"
-                          alt=" "
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="client-logo ">
-                      <a href="#0">
-                        <img
-                          className="img-fluid logo "
-                          loading="lazy"
-                          src="./assets/assets/images/clients-logos/4.png"
-                          alt=" "
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        ></section>
         {/* End  our-clients Section*/}
         {/* Start  pricing Section*/}
 

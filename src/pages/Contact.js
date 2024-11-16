@@ -116,8 +116,7 @@ export default function Contact() {
                         <form
                           className="main-form"
                           id="contact-us-form"
-                          action="https://amincode.com/html/flex-it/php/send-mail.php"
-                          method="post"
+                          action="/ThankYou"
                         >
                           <span className="done-msg" />
                           <div className="row ">
@@ -159,8 +158,8 @@ export default function Contact() {
                                 <span className="error-msg" />
                               </div>
                             </div>
-                            <div className="col-12 ">
-                              <div className="   input-wrapper">
+                            <div className="col-12">
+                              <div className="input-wrapper">
                                 <input
                                   className="text-input"
                                   id="msg-subject"
@@ -179,7 +178,7 @@ export default function Contact() {
                               </div>
                             </div>
                             <div className="col-12 ">
-                              <div className="   input-wrapper">
+                              <div className="input-wrapper">
                                 <textarea
                                   className=" text-input"
                                   id="msg-text"
@@ -201,7 +200,6 @@ export default function Contact() {
                             <div className="col-12 submit-wrapper">
                               <button
                                 className=" btn-solid"
-                                id="submit-btn"
                                 type="submit"
                                 name="UserSubmit"
                               >
