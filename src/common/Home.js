@@ -128,7 +128,7 @@ export default function Home() {
                         >
                           Know More
                         </Link>
-                        <div className="play-btn-row-dir ">
+                        {/* <div className="play-btn-row-dir ">
                           <a
                             className="video-link"
                             href="https://www.youtube.com/watch?v=QI4_dGvZ5yE&ab_channel=JUtah"
@@ -143,7 +143,7 @@ export default function Home() {
                               </div>
                             </div>
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
