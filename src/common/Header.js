@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Translate from "../pages/Translate";
 
 export default function Header() {
   // State to manage visibility of each dropdown using a Map
@@ -214,9 +213,6 @@ export default function Header() {
                   <Link class="menu-link  " to="/elevate-by-im">
                     elevate by IM{" "}
                   </Link>
-                </li>
-                <li>
-                  <Translate />
                 </li>
               </ul>
             </div>
