@@ -31,7 +31,7 @@ export default function Footer() {
                       <input
                         className="email-input "
                         type="email"
-                        defaultValue
+                        defaultValue=""
                         name="EMAIL"
                         id="email-input"
                         placeholder="Email Address"
@@ -46,9 +46,6 @@ export default function Footer() {
                         />
                       </div>
                     </div>
-                    <span className="email-notice">
-                      *we will not share your personal info
-                    </span>
                   </form>
                 </div>
               </div>
@@ -141,8 +138,8 @@ export default function Footer() {
                 </div>
                 <div className="contact-info-card">
                   <i className="bi bi-geo-alt icon" />
-                  <span className="text-lowercase  info">
-                    007, 8th floor, Bansal One Bhopal Madhya Pradesh, India
+                  <span className="text-capitalize info">
+                    E07, 8th Floor, Bansal One, Bhopal 462016 MP, IN
                   </span>
                 </div>
 
@@ -205,14 +202,14 @@ export default function Footer() {
                 <p className="creadits">
                   © 2024
                   <Link className="link" to="/">
-                    Incubation Masters{" "}
+                    &nbsp;Incubation Masters{" "}
                   </Link>
                   All Rights Reserved
                 </p>
               </div>
               <div className="col-12 col-md-6 d-flex justify-content-end">
                 <div className="terms-links">
-                  <a href="#0">Terms of Use </a>|{" "}
+                  <Link to="/term-of-use">Terms of Use </Link>|{" "}
                   <a
                     href="#0"
                     data-bs-toggle="modal"

@@ -17,6 +17,11 @@ export default function ThankYou() {
           <div className="container text-center">
             <img src="./assets/assets/images/logo/thank-you.png" />
             <p>Our team will contact you soon.</p>
+            <p>
+              We strive to provide timely responses, but please allow up to 7
+              working days for a follow-up. If your matter is urgent, feel free
+              to reach out to us directly at connect@incubationmasters.com{" "}
+            </p>
 
             <Link to="/" className="btn btn-solid">
               Go Back

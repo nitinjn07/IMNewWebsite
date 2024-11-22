@@ -89,7 +89,7 @@ export default function Home() {
                         Elevate Your Startup with IM{" "}
                       </div>
                       <h1 className="hero-title  ">
-                        A Team Who Understand Startups
+                        A Team Skilled in Business Acumen
                         <span className="featured-text">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -114,10 +114,9 @@ export default function Home() {
                     </div>
                     <div className="col-10">
                       <p className="hero-subtitle ">
-                        At Incubation Masters, we accelerate growth, cultivate
-                        innovation, and drive transformative change for
-                        startups, entrepreneurs, and established businesses
-                        worldwide.
+                        At Incubation Masters, we deliver strategic insights and
+                        innovative solutions, empowering businesses worldwide to
+                        achieve sustainable growth
                       </p>
                     </div>
                     <div className="col-12">
@@ -170,10 +169,10 @@ export default function Home() {
                   Table
                 </h2>
                 <p className="subtitle  wow fadeInUp " data-wow-delay=".6s">
-                  Through a blend of comprehensive startup solutions, incubation
-                  services, market expansion initiatives, and personalized
-                  consulting, we empower startups to accelerate their business
-                  growth and achieve unmatched outcomes.
+                  By integrating comprehensive startup solutions, business
+                  services, market expansion strategies, and tailored incubation
+                  consulting, we enable startups to accelerate growth and
+                  achieve unparalleled success.
                 </p>
               </div>
             </div>
@@ -607,14 +606,14 @@ export default function Home() {
                   <div className="stat-box-inner  " data-tilt="data-tilt">
                     <i className="flaticon-project-management stat-icon" />
                     <p className="stat-num ">
-                      <span
+                      {/* <span
                         className="counter"
                         data-from={10}
                         data-to={11500}
                         data-speed={3000}
                         data-refresh-interval={50}
-                      />
-                      <span className="sign">+</span>
+                      /> */}
+                      <span className="sign">11,700+</span>
                     </p>
                     <span className="stat-desc">Startups Curated </span>
                   </div>

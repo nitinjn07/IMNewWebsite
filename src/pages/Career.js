@@ -119,6 +119,14 @@ export default function Career() {
       {/* Start  about Section*/}
       <section className="about mega-section" id="about">
         <div className="container">
+          <p>
+            At IM, we are more than just a business consulting firm; we are a
+            community of passionate individuals driven by a shared mission to
+            empower businesses globally. We believe in nurturing talent,
+            fostering creativity, and providing opportunities for professional
+            growth. If you are passionate about innovation, strategic
+            consulting, and helping startups thrive, we want to hear from you!
+          </p>
           {/* Start first about div*/}
           <div className="content-block  ">
             <form onSubmit={handleSubmit}>
@@ -161,7 +169,7 @@ export default function Career() {
                   )}
                 </div>
                 <div class="form-group col-md-6 my-2">
-                  <label>Why choose us? (*)</label>
+                  <label>Why do you want to work for IM? (*)</label>
                   <input
                     type="text"
                     name="why_choose_us"

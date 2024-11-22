@@ -145,8 +145,23 @@ export default function Header() {
                     }`}
                   >
                     <li class="menu-item sub-menu-item">
-                      <Link class="menu-link sub-menu-link" to="/our-offerings">
-                        Our Offerings
+                      <Link class="menu-link sub-menu-link" to="#0">
+                        Incubation and Startup Consulting
+                      </Link>
+                    </li>
+                    <li class="menu-item sub-menu-item">
+                      <Link class="menu-link sub-menu-link" to="#0">
+                        Strategic Advisory to Governments
+                      </Link>
+                    </li>
+                    <li class="menu-item sub-menu-item">
+                      <Link class="menu-link sub-menu-link" to="#0">
+                        Investment Promotion
+                      </Link>
+                    </li>
+                    <li class="menu-item sub-menu-item">
+                      <Link class="menu-link sub-menu-link" to="#0">
+                        Elevate by IM
                       </Link>
                     </li>
                   </ul>
@@ -193,11 +208,7 @@ export default function Header() {
                     </li>
                   </ul>
                 </li>
-                <li class="menu-item">
-                  <Link class="menu-link  " to="/Insights">
-                    Insights{" "}
-                  </Link>
-                </li>
+
                 <li class="menu-item">
                   <Link class="menu-link  " to="/Career">
                     Career{" "}
@@ -226,6 +237,43 @@ export default function Header() {
 
               <div class="control header-search-btn">
                 <i class="fa fa-search"></i>
+              </div>
+              <div class="control">
+                <i class="fa fa-user" title="MY IM"></i>
+              </div>
+              <div class="dropdown">
+                <button
+                  type="button"
+                  class="btn btn-solid p-1 dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                >
+                  <i class="fa fa-globe"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <span class="flag-icon flag-icon-in"></span> &nbsp; India
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <span class="flag-icon flag-icon-gr"></span> &nbsp;
+                      Germany
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <span class="flag-icon flag-icon-th"></span> &nbsp;
+                      Thailand
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <span class="flag-icon flag-icon-id"></span> &nbsp;
+                      Indonesia
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </nav>

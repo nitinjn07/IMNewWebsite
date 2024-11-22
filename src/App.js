@@ -23,6 +23,7 @@ import Sigma from "./pages/Sigma";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import ThankYou from "./pages/ThankYou";
+import Termofuse from "./pages/Termofuse";
 
 export default function App() {
   return (
@@ -63,6 +64,7 @@ export default function App() {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/ThankYou" element={<ThankYou />} />
+        <Route path="/term-of-use" element={<Termofuse />} />
       </Routes>
 
       <Footer />
