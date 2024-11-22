@@ -49,6 +49,7 @@ export default function Home() {
                                 className="sc-link"
                                 href="https://www.facebook.com/IncubationMasters/"
                                 title="social media icon"
+                                target="_blank"
                               >
                                 <i className="fab fa-facebook-f sc-icon" />
                               </a>
@@ -58,6 +59,7 @@ export default function Home() {
                                 className="sc-link"
                                 href="https://www.linkedin.com/company/incubation-masters/"
                                 title="social media icon"
+                                target="_blank"
                               >
                                 <i className="fab fa-linkedin sc-icon" />
                               </a>
@@ -67,6 +69,7 @@ export default function Home() {
                                 className="sc-link"
                                 href="https://www.instagram.com/incubationmasters/"
                                 title="social media icon"
+                                target="_blank"
                               >
                                 <i className="fab fa-instagram sc-icon" />
                               </a>
@@ -76,6 +79,7 @@ export default function Home() {
                                 className="sc-link"
                                 href="https://twitter.com/IncubationMS/"
                                 title="social media icon"
+                                target="_blank"
                               >
                                 <i className="fab fa-x-twitter sc-icon" />
                               </a>
