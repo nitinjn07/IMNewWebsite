@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+
 export default function Alpha() {
   const [form, setForm] = useState({
     startup_name: "",
@@ -45,11 +45,38 @@ export default function Alpha() {
     setForm((prevForm) => ({ ...prevForm, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (validateForm()) {
-      alert("Form submitted successfully!");
-      // Submit form logic here
+
+    try {
+      const response = await fetch("http://localhost:5000/insert", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+      });
+
+      const result = await response.json();
+      if (response.ok) {
+        alert(result.message);
+        setForm({
+          startup_name: "",
+          email_id: "",
+          mobile_no: "",
+          country_name: "",
+          industry: "",
+          stage: "",
+          city_name: "",
+          startup_idea: "",
+          password: "",
+        });
+      } else {
+        alert(`Error: ${result.message}`);
+      }
+    } catch (error) {
+      console.error("Error submitting data:", error);
+      alert("Failed to submit data. Please try again.");
     }
   };
 

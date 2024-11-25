@@ -1,6 +1,35 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 export default function Login() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [message, setMessage] = useState("");
+  const handleLogin = async (e) => {
+    e.preventDefault();
+
+    const loginData = { email_id: email, password };
+
+    try {
+      const response = await fetch("http://localhost:5000/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(loginData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        setMessage(`Login successful: Welcome, ${result.user.startup_name}`);
+      } else {
+        setMessage(`Error: ${result.message}`);
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setMessage("Failed to login. Please try again.");
+    }
+  };
   return (
     <>
       <div>
@@ -49,15 +78,18 @@ export default function Login() {
                     </Link>
                   </div>
                   <div class="card-body">
-                    <form>
+                    <div className="text-white">{message}</div>
+                    <form onSubmit={handleLogin}>
                       <div className="row">
                         <div class="form-group mb-3 mt-3 col-md-6">
                           <input
                             type="text"
                             class="form-control"
-                            id="username"
-                            placeholder="Enter username"
-                            name="username"
+                            placeholder="Enter email"
+                            name="email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            required
                           />
                         </div>
 
@@ -66,6 +98,9 @@ export default function Login() {
                             type="password"
                             class="form-control"
                             placeholder="Password"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                            required
                           />
                         </div>
                         <div className="form-group">
