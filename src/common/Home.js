@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t } = useTranslation("");
   return (
     <>
       <div>
@@ -93,7 +95,7 @@ export default function Home() {
                         Elevate Your Startup with IM{" "}
                       </div>
                       <h1 className="hero-title  ">
-                        A Team Skilled in Business Acumen
+                        {t("heading")}
                         <span className="featured-text">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"

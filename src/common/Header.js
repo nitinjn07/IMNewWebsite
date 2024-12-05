@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function Header() {
+  const { t, i18n } = useTranslation("");
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+  };
   // State to manage visibility of each dropdown using a Map
   const [dropdowns, setDropdowns] = useState(new Map());
   const [isClassAdded, setIsClassAdded] = useState(false);
@@ -251,26 +257,35 @@ export default function Header() {
                 </button>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      onClick={() => changeLanguage("hi")}
+                    >
                       <span class="flag-icon flag-icon-in"></span> &nbsp; India
                     </a>
                   </li>
-                  <li>
+                  <li onClick={() => changeLanguage("jr")}>
                     <a class="dropdown-item" href="#">
                       <span class="flag-icon flag-icon-gr"></span> &nbsp;
                       Germany
                     </a>
                   </li>
-                  <li>
+                  <li onClick={() => changeLanguage("th")}>
                     <a class="dropdown-item" href="#">
                       <span class="flag-icon flag-icon-th"></span> &nbsp;
                       Thailand
                     </a>
                   </li>
-                  <li>
+                  <li onClick={() => changeLanguage("ind")}>
                     <a class="dropdown-item" href="#">
                       <span class="flag-icon flag-icon-id"></span> &nbsp;
                       Indonesia
+                    </a>
+                  </li>
+                  <li onClick={() => changeLanguage("en")}>
+                    <a class="dropdown-item" href="#">
+                      <span class="flag-icon flag-icon-us"></span> &nbsp; en
                     </a>
                   </li>
                 </ul>

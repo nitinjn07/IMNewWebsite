@@ -24,6 +24,7 @@ import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import ThankYou from "./pages/ThankYou";
 import Termofuse from "./pages/Termofuse";
+import { useTranslation } from "react-i18next";
 
 export default function App() {
   return (
