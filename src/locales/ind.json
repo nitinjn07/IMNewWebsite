@@ -1,4 +1,309 @@
 {
-    "heading": "Tim yang Terampil dalam Ketajaman Bisnis"
-  
+  "slider": {
+    "small_heading": "Tingkatkan Startup Anda dengan IM",
+    "big_heading": "Tim yang Terampil dalam Ketajaman Bisnis",
+    "paragraph": "Di Incubation Masters, kami memberikan wawasan strategis dan solusi inovatif, memberdayakan bisnis di seluruh dunia untuk mencapai pertumbuhan berkelanjutan.",
+    "button": "Tahu Lebih Banyak"
+  },
+  "our_experties": {
+    "small": "Keahlian Kami",
+    "big_heading": "Apa yang Kami Hadirkan",
+    "paragraph": "Dengan mengintegrasikan solusi startup yang komprehensif, layanan bisnis, strategi perluasan pasar, dan konsultasi inkubasi yang disesuaikan, kami memungkinkan startup untuk mempercepat pertumbuhan dan mencapai kesuksesan yang tak tertandingi.",
+    "list_of_experties": {
+      "s1": {
+        "title": "Konsultasi Inkubasi dan Startup",
+        "paragraph": "Memberikan bimbingan, sumber daya, dan panduan strategis yang disesuaikan kepada startup untuk mempercepat pertumbuhan."
+      },
+      "s2": {
+        "title": "Promosi Investasi",
+        "paragraph": "Mendorong pertumbuhan ekonomi dengan menghubungkan investor dengan peluang-peluang berpotensi besar dan membina ekosistem investasi yang berkembang."
+      },
+      "s3": {
+        "title": "Penasihat Strategis kepada Pemerintah",
+        "paragraph": "Menawarkan nasihat ahli kepada badan-badan pemerintah mengenai kebijakan, strategi, dan pembangunan ekonomi untuk pertumbuhan yang berdampak dan berkelanjutan."
+      },
+      "s4": {
+        "title": "Bantuan Masuk Pasar Internasional",
+        "paragraph": "Memandu bisnis melalui riset pasar, strategi, dan koneksi agar berhasil memasuki dan berekspansi di pasar global."
+      },
+      "s5": {
+        "title": "Dukungan Penggalangan Dana melalui IM Angels",
+        "paragraph": "Menghubungkan startup dengan jaringan investor untuk mendapatkan pendanaan penting dan mendorong perjalanan pertumbuhan mereka."
+      },
+      "s6": {
+        "title": "Kelompok yang Dikurasi untuk Sektor Publik",
+        "paragraph": "Membangun program yang disesuaikan untuk memenuhi kebutuhan spesifik sektor publik, meningkatkan inovasi dan solusi kolaboratif."
+      }
+    }
+  },
+  "menu": {
+    "menu1": "Tentang IM",
+    "menu2": {
+      "services": "Layanan",
+      "sub1": "Konsultasi Inkubasi dan Startup",
+      "sub2": "Penasihat Strategis Kepada Pemerintah",
+      "sub3": "Promosi Investasi",
+      "sub4": "Tinggikan Dengan IM"
+    },
+    "menu3": {
+      "fdi": "penanaman modal asing",
+      "sub1": "Institut Penanaman Modal Asing",
+      "sub2": "CRM PMA",
+      "sub3": "Platform Intelijen Perdagangan",
+      "sub4": "Platform Intelijen FDI"
+    },
+    "menu4": "Karier",
+    "menu5": "Sumber daya",
+    "menu6": "Tinggikan dengan IM"
+  },
+  "im_edge": {
+    "small": "Tepi IM",
+    "big_white": "Promosi Inovasi Lintas Batas",
+    "big_blue": "dan Pembangunan Ekonomi Lokal.",
+    "paragraph": "Master Inkubasi berkomitmen untuk memberdayakan wirausahawan dan organisasi ambisius dengan wawasan, sumber daya, dan dukungan yang mereka perlukan untuk mendorong perubahan yang berarti.",
+    "list": {
+      "l1": {
+        "title": "Inkubator dan Akselerator",
+        "para": "Kami menciptakan inkubator dan akselerator khusus melalui kerja sama dengan pemerintah daerah, mendorong pengembangan produk di kalangan generasi muda dan mendorong pertumbuhan ekonomi lokal."
+      },
+      "l2": {
+        "title": "Akses Inovasi Lintas Batas",
+        "para": "Master Inkubasi memungkinkan perusahaan rintisan memasuki pasar global dengan panduan strategis, jaringan, dan program kohort yang berfokus pada penyelesaian tantangan pemerintah, yang didukung oleh dukungan investasi."
+      },
+      "l3": {
+        "title": "Promosi Perdagangan, Ekspor & Investasi",
+        "para": "Dengan kehadiran yang kuat di pasar-pasar utama global, kami terhubung erat dengan para pedagang, eksportir, dan investor, mewakili kepentingan pemerintah di luar negeri untuk membina hubungan dan mempromosikan perdagangan."
+      },
+      "l4": {
+        "title": "Institut FDi",
+        "para": "Sebagai profesional di bidang pembangunan ekonomi, kami menggabungkan pengetahuan pasar yang mendalam dengan wawasan strategis, memahami bagaimana tren industri dan strategi perusahaan selaras untuk mendorong pertumbuhan setiap hari."
+      }
+    }
+  },
+  "why_im": {
+    "small": "Mengapa Master Inkubasi",
+    "big": "Mengapa Startup Secara GlobalPilih Bekerja dengan Sayabekerja bersama kami",
+    "para": "Baik Anda meluncurkan usaha baru atau mengembangkan perusahaan yang sudah mapan, tim ahli IM menyediakan alat, strategi, dan wawasan yang diperlukan untuk meraih kesuksesan.",
+    "list": {
+      "l1": {
+        "title": "Jaringan Global",
+        "para": "Akses jaringan luas kami yang terdiri dari para pemimpin industri, investor, mentor, mitra teknis, dan mitra di seluruh dunia."
+      },
+      "l2": {
+        "title": "Strategi Pertumbuhan yang Dipercepat",
+        "para": "Metodologi dan pendekatan langsung kami yang telah terbukti dirancang untuk mempercepat perjalanan Anda dari startup hingga menjadi pemimpin pasar."
+      },
+      "l3": {
+        "title": "Integrasi Teknologi, Inovasi & Eksekusi yang Mulus",
+        "para": "Kami menggabungkan pemikiran visioner dengan strategi yang dapat ditindaklanjuti, membantu Anda mengubah ide menjadi solusi bisnis yang berdampak."
+      }
+    },
+    "button": "Hubungi kami"
+  },
+  "count": {
+    "c1": "Startup yang Dikurasi",
+    "c2": "Inkubator Dibuat",
+    "c3": "Kekuatan Jaringan Mitra",
+    "c4": "Pendanaan Difasilitasi"
+  },
+  "footer": {
+    "section1": {
+      "p1": "Berlangganan surat berita kami",
+      "button": "Kirim"
+    },
+    "section2": {
+      "heading": "Tautan Berguna",
+      "menu1": "Tentang Kami",
+      "menu2": "Wawasan",
+      "menu3": "Karier",
+      "menu4": "Sumber daya",
+      "Contact Us": "Hubungi kami"
+    },
+    "section3": {
+      "heading": "Sumber daya",
+      "menu1": "penanaman modal asing",
+      "menu2": "CRM PMA",
+      "menu3": "Platform Intelijen Perdagangan",
+      "menu4": "Platform Intelijen FDI"
+    },
+    "section4": {
+      "heading": "informasi kontak",
+      "address": "E07, Lantai 8, Bansal One, Bhopal 462016 MP, IN"
+    }
+  },
+  "footer_bottom": {
+    "menu1": "Ketentuan Penggunaan",
+    "menu2": "Kebijakan Privasi."
+  },
+  "about_page": {
+    "heading": "Tentang Kami",
+    "small": "tentang Kami",
+    "big_white": "Mitra Terpercaya dalam Bisnis",
+    "big_blue": "Transformasi.",
+    "para1": "Incubation Masters, sebuah perusahaan konsultan bisnis terkemuka, berdedikasi untuk memberdayakan perusahaan dan wirausahawan tahap awal untuk meningkatkan dan mencapai potensi penuh mereka. ",
+    "para2": "Tim kami terdiri dari para profesional berpengalaman dengan pengetahuan industri yang mendalam, keahlian teknis, dan pengalaman di berbagai sektor. "
+  },
+  "fdi_page1": {
+    "heading": "Institut Penanaman Modal Asing",
+    "small": "tentang Kami",
+    "title": "Institut Penanaman Modal Asing",
+    "sub": "Memperkenalkan FDi Institute - Memberdayakan Profesional Pembangunan Ekonomi",
+    "para1": "Bekerja sebagai profesional pembangunan ekonomi adalah upaya yang rumit dan menuntut. ",
+    "para2": "Di InterDiplom Masters, kami menyadari tantangan dan kompleksitas yang dihadapi para profesional pembangunan ekonomi. ",
+    "list": {
+      "l1": {
+        "title": "Meningkatkan Keahlian",
+        "para": "FDi Institute adalah pintu gerbang Anda menuju alat dan sumber daya praktis yang dirancang untuk meningkatkan kemahiran dan keahlian Anda sebagai pengembang ekonomi. "
+      },
+      "l2": {
+        "title": "Platform Pembelajaran Komprehensif",
+        "para": "Platform kami mencakup spektrum subjek penting yang luas, mulai dari praktik terbaik promosi investasi dan strategi pemasaran hingga memahami proposisi nilai, teknik menghasilkan prospek, dan seluk-beluk memfasilitasi investasi. "
+      },
+      "l3": {
+        "title": "Sertifikasi Profesi",
+        "para": "Pelanggan FDi Institute tidak hanya mendapatkan akses terhadap kekayaan pengetahuan tetapi juga memiliki kesempatan untuk mendapatkan sertifikasi profesional. "
+      },
+      "l4": {
+        "title": "Wawasan Mutakhir",
+        "para": "Selain pelatihan dan sertifikasi yang berharga, pelanggan mendapat manfaat dari akses eksklusif ke konten laporan yang dikembangkan secara khusus. "
+      },
+      "l5": {
+        "title": "Peningkatan Pribadi dan Organisasi",
+        "para": "FDi Institute bukan hanya tentang pertumbuhan pribadi; "
+      },
+      "l6": {
+        "title": "Bergabunglah dengan Kami dalam Mengejar Keunggulan",
+        "para": "FDi Institute adalah rekan Anda dalam perjalanan menuju keunggulan dalam pembangunan ekonomi. "
+      }
+    },
+    "buttom_line": "Rangkullah masa depan pembangunan ekonomi bersama FDi Institute — sebuah bukti komitmen kami terhadap kesuksesan Anda."
+  },
+  "fdi_page2": {
+    "heading": "CRM PMA",
+    "small": "CRM PMA",
+    "title": "CRM PMA",
+    "sub": "FDi CRM - Mendefinisikan Ulang Manajemen Hubungan Investor",
+    "para1": "Sistem CRM tradisional gagal dalam mengelola siklus hidup investor yang rumit yang dihadapi Organisasi Pembangunan Ekonomi (EDO) dan Badan Promosi Investasi (IPA) setiap hari. ",
+    "list": {
+      "l1": {
+        "title": "Pendekatan Holistik terhadap Manajemen Investor",
+        "para": "InterDiplom CRM, tidak seperti solusi konvensional, memberdayakan EDO dan IPA untuk mengelola seluruh siklus hidup investor dengan lancar. "
+      },
+      "l2": {
+        "title": "Kustomisasi Tanpa Biaya Tersembunyi",
+        "para": "Yang membedakan InterDiplom CRM adalah desain intuitifnya yang memungkinkan penyesuaian cepat. "
+      },
+      "l3": {
+        "title": "Orientasi dan Dukungan yang Efisien",
+        "para": "Kami memahami bahwa mengadopsi sistem baru dapat menjadi sebuah tantangan. "
+      },
+      "l4": {
+        "title": "Mitra Anda dalam Kesuksesan Investor",
+        "para": "InterDiplom CRM bukan sekadar alat; "
+      }
+    },
+    "buttom_line": "Pilih InterDiplom CRM sebagai teman tepercaya Anda dalam mendefinisikan ulang manajemen hubungan investor. "
+  },
+  "fdi_page3": {
+    "heading": "Intelijen Perdagangan",
+    "small": "Intelijen Perdagangan",
+    "title": "Intelijen Perdagangan",
+    "sub": "Platform Intelijen Perdagangan: Melepaskan Wawasan Pasar dengan Presisi",
+    "para1": "Sebagai komponen penting dari FDiMasters Suite, Platform Intelijen Perdagangan kami adalah pintu gerbang Anda menuju kekayaan wawasan pasar dan layanan dukungan. ",
+    "list_heading": "Fitur Utama",
+    "list": {
+      "l1": {
+        "title": "Menavigasi Medan yang Kompleks",
+        "para": "Kami memberikan informasi penting mengenai tarif impor, pajak, dan prosedur bea cukai di India, membantu Anda mengelola seluk-beluk perdagangan lintas batas secara efisien."
+      },
+      "l2": {
+        "title": "Kepatuhan dan Peraturan",
+        "para": "Tetap terinformasi tentang standar, peraturan, dan praktik komersial, memastikan operasi Anda sejalan dengan norma bisnis dan hak kekayaan intelektual India."
+      },
+      "l3": {
+        "title": "Keahlian Pasar",
+        "para": "Akses informasi pasar terperinci, termasuk saluran distribusi, wawasan perjalanan bisnis, dan data berharga lainnya, untuk membuat keputusan yang tepat di pasar India."
+      },
+      "l4": {
+        "title": "Wawasan Strategis",
+        "para": "Identifikasi peluang dan prospek terbaik yang disesuaikan dengan industri dan profil perusahaan Anda, memastikan Anda memaksimalkan potensi pertumbuhan Anda di India."
+      }
+    }
+  },
+  "fdi_page4": {
+    "heading": "Intelijen penanaman modal asing",
+    "small": "Intelijen penanaman modal asing",
+    "title": "Intelijen penanaman modal asing",
+    "sub": "Platform Intelijen FDI: Membuka Peluang Investasi dengan Presisi",
+    "para1": "Inti dari FDiMasters Suite, Platform Intelijen FDI kami adalah pintu gerbang Anda menuju dunia wawasan dan peluang investasi. ",
+    "list_heading": "Fitur Utama",
+    "list": {
+      "l1": {
+        "title": "Wawasan India yang Komprehensif",
+        "para": "Platform kami menawarkan database perusahaan dan kontak India yang dikurasi dengan cermat, menawarkan akurasi yang tak tertandingi. "
+      },
+      "l2": {
+        "title": "Pencarian Berfokus pada Industri",
+        "para": "Sesuaikan pencarian Anda dengan industri India tertentu di berbagai sektor, sehingga Anda dapat menentukan prospek investasi yang selaras dengan tujuan Anda."
+      },
+      "l3": {
+        "title": "Analisis Potensi Investasi",
+        "para": "Selami masing-masing perusahaan untuk memindai tanda-tanda potensi investasi, membantu Anda mengidentifikasi peluang paling menjanjikan di pasar India."
+      },
+      "l4": {
+        "title": "Kustomisasi yang Mudah",
+        "para": "Platform kami memberdayakan Anda untuk mencari, memfilter, mengurutkan, dan mengekspor daftar target dengan mudah, menyederhanakan penelitian investasi dan proses pengambilan keputusan."
+      }
+    }
+  },
+  "career_page": {
+    "heading": "Karier",
+    "small": "Karier",
+    "para": "Di IM, kami lebih dari sekedar perusahaan konsultan bisnis; ",
+    "form": {
+      "f1": "Nama",
+      "f2": "E-mail",
+      "f3": "Seluler",
+      "f4": "Mengapa Anda ingin bekerja untuk IM?",
+      "f5": "Unggah Lanjutkan",
+      "button": "Kirim"
+    }
+  },
+  "resource_page": {
+    "heading": "Sumber daya",
+    "small": "Sumber daya",
+    "list": {
+      "l1": "Siniar",
+      "l2": "webinar",
+      "l3": "Blog Republik Startup"
+    }
+  },
+  "elevate_by_im": {
+    "small": "Tinggikan dengan IM",
+    "heading": "Pengalaman Pertumbuhan 3D yang inovatif dan inovatif untuk",
+    "blue": "Startup",
+    "para": "Elevate by Incubation Masters (EIM) adalah program inkubasi bisnis mendalam 3D yang dirancang untuk mendukung startup di negara-negara Asia. ",
+    "program": {
+      "p1": {
+        "title": "Alfa",
+        "button": "Baca selengkapnya",
+        "para": "Ditargetkan pada startup tahap awal. "
+      },
+      "p2": {
+        "title": "Beta",
+        "button": "Baca selengkapnya",
+        "para": "Fokus pada penyempurnaan model bisnis, pengembangan MVP, dan kepatuhan hukum serta penetapan pendekatan terstruktur untuk memasuki pasar"
+      },
+      "p3": {
+        "title": "Gamma",
+        "button": "Baca selengkapnya",
+        "para": "Dukungan tingkat lanjut dengan peningkatan penawaran layanan, bimbingan, dan panduan pendanaan yang menargetkan percepatan pertumbuhan."
+      },
+      "p4": {
+        "title": "Sigma",
+        "button": "Baca selengkapnya",
+        "para": "Fase terakhir berfokus pada ekspansi, penggalangan dana, pembangunan tim, dan strategi bisnis tingkat lanjut untuk meningkatkan skala secara efektif dan mengakses peluang pertumbuhan baru."
+      }
+    }
   }
+}

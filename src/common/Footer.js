@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation("");
   return (
     <>
       <footer className="page-footer dark-color-footer" id="page-footer">
@@ -26,7 +28,7 @@ export default function Footer() {
                     <div className="field-group ">
                       <label className="email-label" htmlFor="email-input">
                         {" "}
-                        Subscribe to our news letter
+                        {t("footer.section1.p1")}
                       </label>
                       <input
                         className="email-input "
@@ -51,56 +53,60 @@ export default function Footer() {
               </div>
             </div>
             <div className="col-6 col-lg-2  footer-col ">
-              <h2 className=" footer-col-title    ">useful links</h2>
+              <h2 className=" footer-col-title    ">
+                {t("footer.section2.heading")}
+              </h2>
               <div className="footer-col-content-wrapper">
                 <ul className="footer-menu ">
                   <li className="footer-menu-item">
                     <i className="bi bi-arrow-right icon " />
                     <Link className="footer-menu-link" to="/about">
-                      About Us
+                      {t("footer.section2.menu1")}
                     </Link>
                   </li>
                   <li className="footer-menu-item">
                     <i className="bi bi-arrow-right icon " />
                     <Link className="footer-menu-link" to="/insights">
-                      Insights
+                      {t("footer.section2.menu2")}
                     </Link>
                   </li>
                   <li className="footer-menu-item">
                     <i className="bi bi-arrow-right icon " />
                     <Link className="footer-menu-link" to="/career">
-                      Career
+                      {t("footer.section2.menu3")}
                     </Link>
                   </li>
                   <li className="footer-menu-item">
                     <i className="bi bi-arrow-right icon " />
                     <Link className="footer-menu-link" to="/resources">
-                      Resources
+                      {t("footer.section2.menu4")}
                     </Link>
                   </li>
                   <li className="footer-menu-item">
                     <i className="bi bi-arrow-right icon " />
                     <Link className="footer-menu-link" to="/contact-us">
-                      Contact Us
+                      {t("footer.section2.menu5")}
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-6 col-lg-2 footer-col ">
-              <h2 className=" footer-col-title    ">Resources</h2>
+              <h2 className=" footer-col-title    ">
+                {t("footer.section3.heading")}
+              </h2>
               <div className="footer-col-content-wrapper">
                 <ul className="footer-menu">
                   <li className="footer-menu-item">
                     <i className="bi bi-arrow-right icon " />
                     <Link className="footer-menu-link" to="/fdi-institute">
-                      FDI
+                      {t("footer.section3.menu1")}
                     </Link>
                   </li>
                   <li className="footer-menu-item">
                     <i className="bi bi-arrow-right icon " />
                     <Link className="footer-menu-link" to="/fdi-crm">
-                      FDI CRM
+                      {t("footer.section3.menu2")}
                     </Link>
                   </li>
                   <li className="footer-menu-item">
@@ -109,7 +115,7 @@ export default function Footer() {
                       className="footer-menu-link"
                       to="/trade-intelligence-plateform"
                     >
-                      Trade Intelligence Plateform
+                      {t("footer.section3.menu3")}
                     </Link>
                   </li>
                   <li className="footer-menu-item">
@@ -118,14 +124,16 @@ export default function Footer() {
                       className="footer-menu-link"
                       to="/fdi-intelligence-plateform"
                     >
-                      FDI Intelligence Plateform
+                      {t("footer.section3.menu4")}
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-12     col-lg-4 footer-col ">
-              <h2 className=" footer-col-title    ">contact information</h2>
+              <h2 className=" footer-col-title    ">
+                {t("footer.section4.heading")}
+              </h2>
               <div className="footer-col-content-wrapper">
                 <div className="contact-info-card">
                   <i className="bi bi-envelope icon" />
@@ -139,7 +147,7 @@ export default function Footer() {
                 <div className="contact-info-card">
                   <i className="bi bi-geo-alt icon" />
                   <span className="text-capitalize info">
-                    E07, 8th Floor, Bansal One, Bhopal 462016 MP, IN
+                    {t("footer.section4.address")}
                   </span>
                 </div>
 
@@ -209,13 +217,13 @@ export default function Footer() {
               </div>
               <div className="col-12 col-md-6 d-flex justify-content-end">
                 <div className="terms-links">
-                  <Link to="/term-of-use">Terms of Use </Link>|{" "}
+                  <Link to="/term-of-use">{t("footer_bottom.menu1")} </Link>|{" "}
                   <a
                     href="#0"
                     data-bs-toggle="modal"
                     data-bs-target="#privacyPolicyModal"
                   >
-                    Privacy Policy.
+                    {t("footer_bottom.menu2")}
                   </a>
                 </div>
               </div>

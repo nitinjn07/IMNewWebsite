@@ -133,7 +133,7 @@ export default function Header() {
               <ul class="list-js links-list">
                 <li class="menu-item">
                   <Link class="menu-link  " to="/About">
-                    About IM{" "}
+                    {t("menu.menu1")}
                   </Link>
                 </li>
                 <li class="menu-item has-sub-menu">
@@ -142,7 +142,7 @@ export default function Header() {
                     to="#0"
                     onClick={() => toggleDropdown(0)}
                   >
-                    Services
+                    {t("menu.menu2.services")}
                     <i class="fas fa-plus  plus-icon"></i>
                   </Link>
                   <ul
@@ -152,22 +152,22 @@ export default function Header() {
                   >
                     <li class="menu-item sub-menu-item">
                       <Link class="menu-link sub-menu-link" to="#0">
-                        Incubation and Startup Consulting
+                        {t("menu.menu2.sub1")}
                       </Link>
                     </li>
                     <li class="menu-item sub-menu-item">
                       <Link class="menu-link sub-menu-link" to="#0">
-                        Strategic Advisory to Governments
+                        {t("menu.menu2.sub2")}
                       </Link>
                     </li>
                     <li class="menu-item sub-menu-item">
                       <Link class="menu-link sub-menu-link" to="#0">
-                        Investment Promotion
+                        {t("menu.menu2.sub3")}
                       </Link>
                     </li>
                     <li class="menu-item sub-menu-item">
                       <Link class="menu-link sub-menu-link" to="#0">
-                        Elevate by IM
+                        {t("menu.menu2.sub4")}
                       </Link>
                     </li>
                   </ul>
@@ -179,7 +179,8 @@ export default function Header() {
                     to="#0"
                     onClick={() => toggleDropdown(1)}
                   >
-                    FDI<i class="fas fa-plus  plus-icon"> </i>
+                    {t("menu.menu3.fdi")}
+                    <i class="fas fa-plus  plus-icon"> </i>
                   </Link>
                   <ul
                     className={`sub-menu ${
@@ -188,12 +189,12 @@ export default function Header() {
                   >
                     <li class="menu-item sub-menu-item">
                       <Link class="menu-link sub-menu-link" to="fdi-institute">
-                        FDI Institute
+                        {t("menu.menu3.sub1")}
                       </Link>
                     </li>
                     <li class="menu-item sub-menu-item">
                       <Link class="menu-link sub-menu-link" to="fdi-crm">
-                        FDI CRM
+                        {t("menu.menu3.sub2")}
                       </Link>
                     </li>
                     <li class="menu-item sub-menu-item">
@@ -201,7 +202,7 @@ export default function Header() {
                         class="menu-link sub-menu-link"
                         to="trade-intelligence-plateform"
                       >
-                        Trade Intelligence Plateform
+                        {t("menu.menu3.sub3")}
                       </Link>
                     </li>
                     <li class="menu-item sub-menu-item">
@@ -209,7 +210,7 @@ export default function Header() {
                         class="menu-link sub-menu-link"
                         to="fdi-intelligence-plateform"
                       >
-                        FDI Intelligence Plateform
+                        {t("menu.menu3.sub4")}
                       </Link>
                     </li>
                   </ul>
@@ -217,18 +218,18 @@ export default function Header() {
 
                 <li class="menu-item">
                   <Link class="menu-link  " to="/Career">
-                    Career{" "}
+                    {t("menu.menu4")}
                   </Link>
                 </li>
                 <li class="menu-item">
                   <Link class="menu-link  " to="/Resources">
-                    Resouces{" "}
+                    {t("menu.menu5")}
                   </Link>
                 </li>
 
                 <li class="menu-item">
                   <Link class="menu-link  " to="/elevate-by-im">
-                    elevate by IM{" "}
+                    {t("menu.menu6")}
                   </Link>
                 </li>
               </ul>

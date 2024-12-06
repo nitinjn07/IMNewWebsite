@@ -92,10 +92,10 @@ export default function Home() {
                     </div>
                     <div className="col-12">
                       <div className="pre-title ">
-                        Elevate Your Startup with IM{" "}
+                        {t("slider.small_heading")}
                       </div>
                       <h1 className="hero-title  ">
-                        {t("heading")}
+                        {t("slider.big_heading")}
                         <span className="featured-text">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -119,11 +119,7 @@ export default function Home() {
                       </h1>
                     </div>
                     <div className="col-10">
-                      <p className="hero-subtitle ">
-                        At Incubation Masters, we deliver strategic insights and
-                        innovative solutions, empowering businesses worldwide to
-                        achieve sustainable growth
-                      </p>
+                      <p className="hero-subtitle ">{t("slider.paragraph")}</p>
                     </div>
                     <div className="col-12">
                       <div className="cta-links-area ">
@@ -131,7 +127,7 @@ export default function Home() {
                           className=" btn-outline cta-link cta-link-primary"
                           to="/about"
                         >
-                          Know More
+                          {t("slider.button")}
                         </Link>
                         {/* <div className="play-btn-row-dir ">
                           <a
@@ -168,17 +164,16 @@ export default function Home() {
             <div className="sec-heading  ">
               <div className="content-area">
                 <span className="pre-title wow fadeInUp " data-wow-delay=".2s">
-                  Our Experties
+                  {t("our_experties.small")}
                 </span>
                 <h2 className="title  wow fadeInUp" data-wow-delay=".4s">
-                  <span className="hollow-text">What We Bring </span> to the
-                  Table
+                  <span className="hollow-text">
+                    {" "}
+                    {t("our_experties.big_heading")}
+                  </span>
                 </h2>
                 <p className="subtitle  wow fadeInUp " data-wow-delay=".6s">
-                  By integrating comprehensive startup solutions, business
-                  services, market expansion strategies, and tailored incubation
-                  consulting, we enable startups to accelerate growth and
-                  achieve unparalleled success.
+                  {t("our_experties.paragraph")}
                 </p>
               </div>
             </div>
@@ -196,11 +191,10 @@ export default function Home() {
                   <span className="service-num hollow-text">1 </span>
                   <div className="service-content">
                     <h3 className="service-title">
-                      Incubation and Startup Consulting
+                      {t("our_experties.list_of_experties.s1.title")}
                     </h3>
                     <p className="service-text">
-                      Providing startups with tailored mentorship, resources,
-                      and strategic guidance to accelerate growth.
+                      {t("our_experties.list_of_experties.s1.paragraph")}
                     </p>
                   </div>
                   <a className="read-more" href="service-single.html">
@@ -222,11 +216,11 @@ export default function Home() {
                   </div>
                   <span className="service-num hollow-text">2 </span>
                   <div className="service-content">
-                    <h3 className="service-title">Investment Promotion</h3>
+                    <h3 className="service-title">
+                      {t("our_experties.list_of_experties.s2.title")}
+                    </h3>
                     <p className="service-text">
-                      Driving economic growth by connecting investors with
-                      high-potential opportunities and fostering a thriving
-                      investment ecosystem.
+                      {t("our_experties.list_of_experties.s2.paragraph")}
                     </p>
                   </div>
                   <a className="read-more" href="service-single.html">
@@ -249,12 +243,10 @@ export default function Home() {
                   <span className="service-num hollow-text">3 </span>
                   <div className="service-content">
                     <h3 className="service-title">
-                      Strategic Advisory to Governments{" "}
+                      {t("our_experties.list_of_experties.s3.title")}
                     </h3>
                     <p className="service-text">
-                      Offering expert advice to government bodies on policy,
-                      strategy, and economic development for impactful,
-                      sustainable growth.
+                      {t("our_experties.list_of_experties.s3.paragraph")}
                     </p>
                   </div>
                   <a className="read-more" href="service-single.html">
@@ -277,12 +269,10 @@ export default function Home() {
                   <span className="service-num hollow-text">4 </span>
                   <div className="service-content">
                     <h3 className="service-title">
-                      International Market Entry Assistance
+                      {t("our_experties.list_of_experties.s4.title")}
                     </h3>
                     <p className="service-text">
-                      Guiding businesses through market research, strategy, and
-                      connections to successfully enter and expand in global
-                      markets.
+                      {t("our_experties.list_of_experties.s4.paragraph")}
                     </p>
                   </div>
                   <a className="read-more" href="service-single.html">
@@ -305,11 +295,10 @@ export default function Home() {
                   <span className="service-num hollow-text">5 </span>
                   <div className="service-content">
                     <h3 className="service-title">
-                      Fundraising Support through IM Angels
+                      {t("our_experties.list_of_experties.s5.title")}
                     </h3>
                     <p className="service-text">
-                      Connecting startups with a network of investors to secure
-                      essential funding and fuel their growth journeys.
+                      {t("our_experties.list_of_experties.s5.paragraph")}
                     </p>
                   </div>
                   <a className="read-more" href="service-single.html">
@@ -332,12 +321,10 @@ export default function Home() {
                   <span className="service-num hollow-text">6 </span>
                   <div className="service-content">
                     <h3 className="service-title">
-                      Curated Cohorts for Public Sector
+                      {t("our_experties.list_of_experties.s6.title")}
                     </h3>
                     <p className="service-text">
-                      Building tailored programs to address specific public
-                      sector needs, enhancing innovation and collaborative
-                      solutions.
+                      {t("our_experties.list_of_experties.s6.paragraph")}
                     </p>
                   </div>
                   <a className="read-more" href="service-single.html">
@@ -368,27 +355,22 @@ export default function Home() {
                           className=" pre-title       wow fadeInUp "
                           data-wow-delay=".2s"
                         >
-                          The IM Edge
+                          {t("im_edge.small")}
                         </span>
                         <h2
                           className=" title    wow fadeInUp"
                           data-wow-delay=".4s"
                         >
-                          <span className="hollow-text">Cross </span> Border
-                          Innovation Promotion{" "}
+                          <span className="hollow-text">
+                            {t("im_edge.big_white")}
+                          </span>
                           <span className="featured-text">
-                            {" "}
-                            and Local Economic Development.{" "}
+                            {t("im_edge.big_blue")}
                           </span>
                         </h2>
                       </div>
                     </div>
-                    <p className=" about-text">
-                      Incubation Masters is committed to empowering ambitious
-                      entrepreneurs and organizations with the insights,
-                      resources, and support they need to drive meaningful
-                      change.
-                    </p>
+                    <p className=" about-text">{t("im_edge.paragraph")}</p>
                     <div className="info-items-list ">
                       <div className="row ">
                         <div className="col-9 col-xl-6">
@@ -396,13 +378,10 @@ export default function Home() {
                             <i className="flaticon-medal  info-icon" />
                             <div className="info-content">
                               <h5 className="info-title">
-                                Incubators and Accelerators
+                                {t("im_edge.list.l1.title")}
                               </h5>
                               <p className="info-text">
-                                We create specialized incubators and
-                                accelerators in collaboration with local
-                                governments, fostering product development among
-                                youth and driving local economic growth.
+                                {t("im_edge.list.l1.para")}
                               </p>
                             </div>
                           </div>
@@ -412,14 +391,10 @@ export default function Home() {
                             <i className="flaticon-game-console info-icon" />
                             <div className="info-content">
                               <h5 className="info-title">
-                                Cross Border Access of Innovation{" "}
+                                {t("im_edge.list.l1.title")}
                               </h5>
                               <p className="info-text">
-                                Incubation Masters enables startups to enter
-                                global markets with strategic guidance,
-                                networks, and cohort programs focused on solving
-                                government challenges, backed by investment
-                                support.
+                                {t("im_edge.list.l1.para")}
                               </p>
                             </div>
                           </div>
@@ -429,14 +404,10 @@ export default function Home() {
                             <i className="flaticon-map info-icon" />
                             <div className="info-content">
                               <h5 className="info-title">
-                                Trade, Export & Investment Promotion
+                                {t("im_edge.list.l1.title")}
                               </h5>
                               <p className="info-text">
-                                With a strong presence in key global markets, we
-                                connect closely with traders, exporters, and
-                                investors, representing government interests
-                                abroad to foster relationships and promote
-                                trade.
+                                {t("im_edge.list.l1.para")}
                               </p>
                             </div>
                           </div>
@@ -445,13 +416,12 @@ export default function Home() {
                           <div className="info-item">
                             <i className="flaticon-technical-support-1  info-icon" />
                             <div className="info-content">
-                              <h5 className="info-title">FDi Institute </h5>
+                              <h5 className="info-title">
+                                {" "}
+                                {t("im_edge.list.l1.title")}{" "}
+                              </h5>
                               <p className="info-text">
-                                As economic development professionals, we
-                                combine deep market knowledge with strategic
-                                insights, understanding how industry trends and
-                                corporate strategies align to drive growth
-                                daily.
+                                {t("im_edge.list.l1.para")}
                               </p>
                             </div>
                           </div>
@@ -507,46 +477,29 @@ export default function Home() {
                           className=" pre-title       wow fadeInUp "
                           data-wow-delay=".2s"
                         >
-                          Why Incubation Masters
+                          {t("why_im.small")}
                         </span>
                         <h2
                           className=" title    wow fadeInUp"
                           data-wow-delay=".4s"
                         >
-                          Why Startups Globally
-                          <span className="hollow-text">
-                            Choose Working with IM
-                          </span>
-                          <span className="featured-text">
-                            working{" "}
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 500 150"
-                              preserveAspectRatio="none"
-                            >
-                              <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7" />
-                            </svg>
-                          </span>
-                          with us
+                          {t("why_im.big")}
                         </h2>
                       </div>
                     </div>
-                    <p className=" about-text">
-                      Whether you’re launching a new venture or scaling an
-                      established enterprise, team IM of experts provides the
-                      tools, strategies, and insights needed to succeed.
-                    </p>
+                    <p className=" about-text">{t("why_im.para")}</p>
                     <div className="info-items-list">
                       <div className="row">
                         <div className="col-12 ">
                           <div className="info-item">
                             <span className="info-number ">01.</span>
                             <div className="info-content">
-                              <h5 className="info-title">Global Network </h5>
+                              <h5 className="info-title">
+                                {" "}
+                                {t("why_im.list.l1.title")}{" "}
+                              </h5>
                               <p className="info-text">
-                                Access our expansive network of industry
-                                leaders, investors, mentors, technical partners,
-                                and partners across the globe.
+                                {t("why_im.list.l1.para")}
                               </p>
                             </div>
                           </div>
@@ -556,12 +509,10 @@ export default function Home() {
                             <span className="info-number ">02.</span>
                             <div className="info-content">
                               <h5 className="info-title">
-                                Accelerated Growth Strategies{" "}
+                                {t("why_im.list.l2.title")}
                               </h5>
                               <p className="info-text">
-                                Our proven methodologies and hands-on approach
-                                are designed to fast-track your journey from
-                                startup to market leader.
+                                {t("why_im.list.l2.para")}
                               </p>
                             </div>
                           </div>
@@ -571,13 +522,10 @@ export default function Home() {
                             <span className="info-number ">03.</span>
                             <div className="info-content">
                               <h5 className="info-title">
-                                Seamless Integration of Technology, Innovation &
-                                Execution
+                                {t("why_im.list.l3.title")}
                               </h5>
                               <p className="info-text">
-                                We combine visionary thinking with actionable
-                                strategies, helping you transform ideas into
-                                impactful business solutions.
+                                {t("why_im.list.l3.para")}
                               </p>
                             </div>
                           </div>
@@ -586,7 +534,7 @@ export default function Home() {
                     </div>
                     <div className="cta-area ">
                       <Link className=" btn-solid " to="/contact-us">
-                        get in toutch
+                        {t("why_im.button")}
                       </Link>
                     </div>
                   </div>
@@ -621,7 +569,7 @@ export default function Home() {
                       /> */}
                       <span className="sign">11,700+</span>
                     </p>
-                    <span className="stat-desc">Startups Curated </span>
+                    <span className="stat-desc">{t("count.c1")} </span>
                   </div>
                 </div>
                 {/*Info Two*/}
@@ -638,7 +586,7 @@ export default function Home() {
                       />
                       <span className="sign">+</span>
                     </p>
-                    <span className="stat-desc">Incubators Created</span>
+                    <span className="stat-desc">{t("count.c2")}</span>
                   </div>
                 </div>
                 {/*Info Three*/}
@@ -655,7 +603,7 @@ export default function Home() {
                       />
                       <span className="sign">+</span>
                     </p>
-                    <span className="stat-desc">Partner Network Strength</span>
+                    <span className="stat-desc">{t("count.c3")}</span>
                   </div>
                 </div>
                 {/*Info Four*/}
@@ -672,7 +620,7 @@ export default function Home() {
                       />
                       <span className="sign">+</span>
                     </p>
-                    <span className="stat-desc">Funding Facilitated </span>
+                    <span className="stat-desc">{t("count.c4")}</span>
                   </div>
                 </div>
               </div>

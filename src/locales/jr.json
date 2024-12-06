@@ -1,4 +1,309 @@
 {
-    "heading": "Ein Team mit Geschäftssinn"
-  
+  "slider": {
+    "small_heading": "Werten Sie Ihr Startup mit IM auf",
+    "big_heading": "Ein Team mit Geschäftssinn",
+    "paragraph": "Bei Incubation Masters liefern wir strategische Erkenntnisse und innovative Lösungen und ermöglichen Unternehmen weltweit, nachhaltiges Wachstum zu erzielen.",
+    "button": "Erfahren Sie mehr"
+  },
+  "our_experties": {
+    "small": "Unsere Expertise",
+    "big_heading": "Was wir auf den Tisch bringen",
+    "paragraph": "Durch die Integration umfassender Startup-Lösungen, Unternehmensdienstleistungen, Marktexpansionsstrategien und maßgeschneiderter Inkubationsberatung ermöglichen wir Startups, ihr Wachstum zu beschleunigen und beispiellosen Erfolg zu erzielen.",
+    "list_of_experties": {
+      "s1": {
+        "title": "Inkubations- und Startup-Beratung",
+        "paragraph": "Bereitstellung maßgeschneiderter Betreuung, Ressourcen und strategischer Anleitung für Startups, um das Wachstum zu beschleunigen."
+      },
+      "s2": {
+        "title": "Investitionsförderung",
+        "paragraph": "Wir fördern das Wirtschaftswachstum, indem wir Investoren mit Chancen mit großem Potenzial verbinden und ein florierendes Investitionsökosystem fördern."
+      },
+      "s3": {
+        "title": "Strategische Beratung für Regierungen",
+        "paragraph": "Wir bieten Regierungsbehörden kompetente Beratung zu Politik, Strategie und wirtschaftlicher Entwicklung für wirkungsvolles, nachhaltiges Wachstum."
+      },
+      "s4": {
+        "title": "Unterstützung beim internationalen Markteintritt",
+        "paragraph": "Führung von Unternehmen durch Marktforschung, Strategie und Verbindungen, um erfolgreich in globale Märkte einzutreten und dort zu expandieren."
+      },
+      "s5": {
+        "title": "Fundraising-Unterstützung durch IM Angels",
+        "paragraph": "Wir verbinden Startups mit einem Netzwerk von Investoren, um die notwendige Finanzierung zu sichern und ihre Wachstumsreise voranzutreiben."
+      },
+      "s6": {
+        "title": "Kuratierte Kohorten für den öffentlichen Sektor",
+        "paragraph": "Erstellen Sie maßgeschneiderte Programme, um auf spezifische Bedürfnisse des öffentlichen Sektors einzugehen und Innovationen und kollaborative Lösungen zu fördern."
+      }
+    }
+  },
+  "menu": {
+    "menu1": "Über IM",
+    "menu2": {
+      "services": "Dienstleistungen",
+      "sub1": "Inkubations- und Startup-Beratung",
+      "sub2": "Strategische Beratung für Regierungen",
+      "sub3": "Investitionsförderung",
+      "sub4": "Per IM erhöhen"
+    },
+    "menu3": {
+      "fdi": "Ausländische Direktinvestitionen",
+      "sub1": "FDI-Institut",
+      "sub2": "FDI-CRM",
+      "sub3": "Trade-Intelligence-Plattform",
+      "sub4": "FDI-Intelligence-Plattform"
+    },
+    "menu4": "Karriere",
+    "menu5": "Ressourcen",
+    "menu6": "Per IM erhöhen"
+  },
+  "im_edge": {
+    "small": "Der IM Edge",
+    "big_white": "Grenzüberschreitende Innovationsförderung",
+    "big_blue": "und lokale Wirtschaftsentwicklung.",
+    "paragraph": "Incubation Masters setzt sich dafür ein, ehrgeizige Unternehmer und Organisationen mit den Erkenntnissen, Ressourcen und der Unterstützung auszustatten, die sie benötigen, um sinnvolle Veränderungen voranzutreiben.",
+    "list": {
+      "l1": {
+        "title": "Inkubatoren und Beschleuniger",
+        "para": "In Zusammenarbeit mit lokalen Regierungen schaffen wir spezialisierte Inkubatoren und Acceleratoren, um die Produktentwicklung bei Jugendlichen zu fördern und das lokale Wirtschaftswachstum voranzutreiben."
+      },
+      "l2": {
+        "title": "Grenzüberschreitender Zugang zu Innovationen",
+        "para": "Incubation Masters ermöglicht Startups den Eintritt in globale Märkte mit strategischer Beratung, Netzwerken und Kohortenprogrammen, die sich auf die Lösung staatlicher Herausforderungen konzentrieren und durch Investitionsunterstützung unterstützt werden."
+      },
+      "l3": {
+        "title": "Handels-, Export- und Investitionsförderung",
+        "para": "Mit einer starken Präsenz in wichtigen globalen Märkten knüpfen wir enge Kontakte zu Händlern, Exporteuren und Investoren und vertreten Regierungsinteressen im Ausland, um Beziehungen zu pflegen und den Handel zu fördern."
+      },
+      "l4": {
+        "title": "FDi-Institut",
+        "para": "Als Wirtschaftsentwicklungsexperten kombinieren wir fundierte Marktkenntnisse mit strategischen Erkenntnissen und verstehen, wie Branchentrends und Unternehmensstrategien aufeinander abgestimmt sind, um täglich das Wachstum voranzutreiben."
+      }
+    }
+  },
+  "why_im": {
+    "small": "Warum Inkubationsmeister",
+    "big": "Warum sich Startups weltweit für die Zusammenarbeit mit IM entscheiden und mit uns zusammenarbeiten",
+    "para": "Unabhängig davon, ob Sie ein neues Unternehmen gründen oder ein etabliertes Unternehmen skalieren, bietet das IM-Expertenteam die Tools, Strategien und Erkenntnisse, die Sie für den Erfolg benötigen.",
+    "list": {
+      "l1": {
+        "title": "Globales Netzwerk",
+        "para": "Greifen Sie auf unser umfangreiches Netzwerk aus Branchenführern, Investoren, Mentoren, technischen Partnern und Partnern auf der ganzen Welt zu."
+      },
+      "l2": {
+        "title": "Beschleunigte Wachstumsstrategien",
+        "para": "Unsere bewährten Methoden und unser praktischer Ansatz sind darauf ausgelegt, Ihren Weg vom Startup zum Marktführer zu beschleunigen."
+      },
+      "l3": {
+        "title": "Nahtlose Integration von Technologie, Innovation und Ausführung",
+        "para": "Wir kombinieren visionäres Denken mit umsetzbaren Strategien und helfen Ihnen, Ideen in wirkungsvolle Geschäftslösungen umzusetzen."
+      }
+    },
+    "button": "Nehmen Sie Kontakt auf"
+  },
+  "count": {
+    "c1": "Startups kuratiert",
+    "c2": "Inkubatoren erstellt",
+    "c3": "Stärke des Partnernetzwerks",
+    "c4": "Finanzierung erleichtert"
+  },
+  "footer": {
+    "section1": {
+      "p1": "Abonnieren Sie unseren Newsletter",
+      "button": "Einreichen"
+    },
+    "section2": {
+      "heading": "Nützliche Links",
+      "menu1": "Über uns",
+      "menu2": "Einblicke",
+      "menu3": "Karriere",
+      "menu4": "Ressourcen",
+      "Contact Us": "Kontaktieren Sie uns"
+    },
+    "section3": {
+      "heading": "Ressourcen",
+      "menu1": "Ausländische Direktinvestitionen",
+      "menu2": "FDI-CRM",
+      "menu3": "Plattform für Handelsinformationen",
+      "menu4": "FDI-Geheimdienstplattform"
+    },
+    "section4": {
+      "heading": "Kontaktinformationen",
+      "address": "E07, 8. Stock, Bansal One, Bhopal 462016 MP, IN"
+    }
+  },
+  "footer_bottom": {
+    "menu1": "Nutzungsbedingungen",
+    "menu2": "Datenschutzrichtlinie."
+  },
+  "about_page": {
+    "heading": "Über uns",
+    "small": "über uns",
+    "big_white": "Der vertrauenswürdige Partner im Geschäft",
+    "big_blue": "Transformation.",
+    "para1": "Incubation Masters, ein führendes Unternehmensberatungsunternehmen, das sich darauf spezialisiert hat, junge Unternehmen und Unternehmer dabei zu unterstützen, zu skalieren und ihr volles Potenzial auszuschöpfen. ",
+    "para2": "Unser Team besteht aus erfahrenen Fachleuten mit fundierten Branchenkenntnissen, technischem Fachwissen und Erfahrung in verschiedenen Branchen. "
+  },
+  "fdi_page1": {
+    "heading": "FDI-Institut",
+    "small": "über uns",
+    "title": "FDI-Institut",
+    "sub": "Vorstellung des FDi-Instituts – Stärkung von Fachleuten für wirtschaftliche Entwicklung",
+    "para1": "Die Arbeit als Experte für Wirtschaftsentwicklung ist ein komplexes und anspruchsvolles Unterfangen. ",
+    "para2": "Bei InterDiplom Masters sind wir uns der Herausforderungen und Komplexitäten bewusst, mit denen Wirtschaftsentwicklungsfachkräfte konfrontiert sind. ",
+    "list": {
+      "l1": {
+        "title": "Kompetenz steigern",
+        "para": "Das FDi-Institut ist Ihr Zugang zu praktischen Tools und Ressourcen, die darauf ausgelegt sind, Ihre Fähigkeiten und Ihr Fachwissen als Wirtschaftsentwickler zu verbessern. "
+      },
+      "l2": {
+        "title": "Eine umfassende Lernplattform",
+        "para": "Unsere Plattform deckt ein breites Spektrum wichtiger Themen ab, von Best Practices für die Investitionsförderung und Marketingstrategien bis hin zum Verständnis von Wertversprechen, Techniken zur Lead-Generierung und den Feinheiten der Erleichterung von Investitionen. "
+      },
+      "l3": {
+        "title": "Professionelle Zertifizierung",
+        "para": "Abonnenten des FDi-Instituts erhalten nicht nur Zugang zu einer Fülle von Wissen, sondern haben auch die Möglichkeit, professionelle Zertifizierungen zu erwerben. "
+      },
+      "l4": {
+        "title": "Modernste Einblicke",
+        "para": "Neben der wertvollen Schulung und Zertifizierung profitieren Abonnenten von exklusivem Zugang zu speziell entwickelten Berichtsinhalten. "
+      },
+      "l5": {
+        "title": "Persönliche und organisatorische Verbesserung",
+        "para": "Beim FDi Institute geht es nicht nur um persönliches Wachstum; "
+      },
+      "l6": {
+        "title": "Begleiten Sie uns auf dem Streben nach Exzellenz",
+        "para": "Das FDi-Institut ist Ihr Begleiter auf dem Weg zu Spitzenleistungen in der Wirtschaftsentwicklung. "
+      }
+    },
+    "buttom_line": "Ergreifen Sie die Zukunft der wirtschaftlichen Entwicklung mit dem FDi Institute – ein Beweis für unser Engagement für Ihren Erfolg."
+  },
+  "fdi_page2": {
+    "heading": "FDI-CRM",
+    "small": "FDI-CRM",
+    "title": "FDI-CRM",
+    "sub": "FDi CRM – Investor Relationship Management neu definiert",
+    "para1": "Herkömmliche CRM-Systeme reichen nicht aus, wenn es darum geht, den komplexen Lebenszyklus von Investoren zu verwalten, mit dem Economic Development Organizations (EDOs) und Investment Promotion Agencies (IPAs) täglich konfrontiert sind. ",
+    "list": {
+      "l1": {
+        "title": "Ein ganzheitlicher Ansatz für das Anlegermanagement",
+        "para": "Im Gegensatz zu herkömmlichen Lösungen ermöglicht InterDiplom CRM EDOs und IPAs, den gesamten Anlegerlebenszyklus nahtlos zu verwalten. "
+      },
+      "l2": {
+        "title": "Individualisierung ohne versteckte Kosten",
+        "para": "Was InterDiplom CRM auszeichnet, ist sein intuitives Design, das eine schnelle Anpassung ermöglicht. "
+      },
+      "l3": {
+        "title": "Optimiertes Onboarding und Support",
+        "para": "Wir verstehen, dass die Einführung eines neuen Systems eine Herausforderung sein kann. "
+      },
+      "l4": {
+        "title": "Ihr Partner für den Anlegererfolg",
+        "para": "InterDiplom CRM ist nicht nur ein Tool; "
+      }
+    },
+    "buttom_line": "Wählen Sie InterDiplom CRM als Ihren zuverlässigen Begleiter bei der Neudefinition des Investor-Relationship-Managements. "
+  },
+  "fdi_page3": {
+    "heading": "Handelsinformationen",
+    "small": "Handelsinformationen",
+    "title": "Handelsinformationen",
+    "sub": "Trade-Intelligence-Plattform: Markteinblicke mit Präzision freisetzen",
+    "para1": "Als wichtiger Bestandteil der FDiMasters Suite ist unsere Trade Intelligence-Plattform Ihr Zugang zu einer Fülle von Markteinblicken und Supportdiensten. ",
+    "list_heading": "Hauptmerkmale",
+    "list": {
+      "l1": {
+        "title": "Navigieren in komplexem Gelände",
+        "para": "Wir stellen wichtige Informationen zu Einfuhrzöllen, Steuern und Zollverfahren in Indien bereit und helfen Ihnen, die Feinheiten des grenzüberschreitenden Handels effizient zu bewältigen."
+      },
+      "l2": {
+        "title": "Compliance und Vorschriften",
+        "para": "Bleiben Sie über kommerzielle Standards, Vorschriften und Praktiken auf dem Laufenden und stellen Sie sicher, dass Ihre Abläufe den indischen Geschäftsnormen und geistigen Eigentumsrechten entsprechen."
+      },
+      "l3": {
+        "title": "Marktexpertise",
+        "para": "Greifen Sie auf detaillierte Marktinformationen zu, einschließlich Vertriebskanälen, Einblicken in Geschäftsreisen und andere wertvolle Daten, um fundierte Entscheidungen auf dem indischen Markt zu treffen."
+      },
+      "l4": {
+        "title": "Strategische Einblicke",
+        "para": "Identifizieren Sie Möglichkeiten und beste Aussichten, die auf Ihre Branche und Ihr Unternehmensprofil zugeschnitten sind, und stellen Sie sicher, dass Sie Ihr Wachstumspotenzial in Indien maximieren."
+      }
+    }
+  },
+  "fdi_page4": {
+    "heading": "FDI-Geheimdienste",
+    "small": "FDI-Geheimdienst",
+    "title": "FDI-Geheimdienst",
+    "sub": "FDI-Intelligence-Plattform: Erschließen Sie Investitionsmöglichkeiten mit Präzision",
+    "para1": "Als Herzstück der FDiMasters Suite ist unsere FDI-Intelligence-Plattform Ihr Tor zu einer Welt voller Investitionseinblicke und -möglichkeiten. ",
+    "list_heading": "Hauptmerkmale",
+    "list": {
+      "l1": {
+        "title": "Umfassende indische Einblicke",
+        "para": "Unsere Plattform verfügt über eine sorgfältig kuratierte Datenbank indischer Unternehmen und Kontakte, die eine beispiellose Genauigkeit bietet. "
+      },
+      "l2": {
+        "title": "Branchenorientierte Suchen",
+        "para": "Passen Sie Ihre Suche auf bestimmte indische Branchen in verschiedenen Sektoren an, sodass Sie Investitionsaussichten ermitteln können, die Ihren Zielen entsprechen."
+      },
+      "l3": {
+        "title": "Analyse des Investitionspotenzials",
+        "para": "Tauchen Sie tief in einzelne Unternehmen ein, um nach Anzeichen für Investitionspotenzial zu suchen und so die vielversprechendsten Chancen auf dem indischen Markt zu identifizieren."
+      },
+      "l4": {
+        "title": "Mühelose Anpassung",
+        "para": "Unsere Plattform ermöglicht Ihnen das mühelose Suchen, Filtern, Sortieren und Exportieren gezielter Listen und optimiert so Ihre Anlagerecherche und Ihren Entscheidungsprozess."
+      }
+    }
+  },
+  "career_page": {
+    "heading": "Karriere",
+    "small": "Karriere",
+    "para": "Bei IM sind wir mehr als nur eine Unternehmensberatung. ",
+    "form": {
+      "f1": "Name",
+      "f2": "E-Mail",
+      "f3": "Mobile",
+      "f4": "Warum möchten Sie für IM arbeiten?",
+      "f5": "Lebenslauf hochladen",
+      "button": "Einreichen"
+    }
+  },
+  "resource_page": {
+    "heading": "Ressourcen",
+    "small": "Ressourcen",
+    "list": {
+      "l1": "Podcast",
+      "l2": "Webinar",
+      "l3": "Startup Republic Blog"
+    }
+  },
+  "elevate_by_im": {
+    "small": "Per IM erhöhen",
+    "heading": "Ein bahnbrechendes immersives 3D-Wachstumserlebnis für",
+    "blue": "Startups",
+    "para": "Elevate by Incubation Masters (EIM) ist ein immersives 3D-Unternehmensinkubationsprogramm zur Unterstützung von Startups in asiatischen Ländern. ",
+    "program": {
+      "p1": {
+        "title": "Alpha",
+        "button": "Mehr lesen",
+        "para": "Zielgruppe sind Start-ups in sehr frühen Phasen. "
+      },
+      "p2": {
+        "title": "Beta",
+        "button": "Mehr lesen",
+        "para": "Konzentrieren Sie sich auf die Verfeinerung von Geschäftsmodellen, die Entwicklung von MVPs und die Einhaltung gesetzlicher Vorschriften sowie auf die Etablierung eines strukturierten Ansatzes für den Markteintritt"
+      },
+      "p3": {
+        "title": "Gamma",
+        "button": "Mehr lesen",
+        "para": "Erweiterter Support mit erweiterten Serviceangeboten, Mentoring und Finanzierungsberatung für beschleunigtes Wachstum."
+      },
+      "p4": {
+        "title": "Sigma",
+        "button": "Mehr lesen",
+        "para": "Die letzte Phase konzentriert sich auf Expansion, Mittelbeschaffung, Teambildung und fortschrittliche Geschäftsstrategien, um effektiv zu skalieren und neue Wachstumschancen zu erschließen."
+      }
+    }
   }
+}

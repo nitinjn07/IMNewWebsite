@@ -1,4 +1,215 @@
 {
-    "heading": "A Team Skilled in Business Acumen"
-  
+  "slider": {
+    "small_heading": "Elevate Your Startup with IM",
+    "big_heading": "A Team Skilled in Business Acumen",
+    "paragraph": "At Incubation Masters, we deliver strategic insights and innovative solutions, empowering businesses worldwide to achieve sustainable growth.",
+    "button": "Know More"
+  },
+  "our_experties": {
+    "small": "Our Expertise",
+    "big_heading": "What We Bring to the Table",
+    "paragraph": "By integrating comprehensive startup solutions, business services, market expansion strategies, and tailored incubation consulting, we enable startups to accelerate growth and achieve unparalleled success.",
+    "list_of_experties": {
+      "s1": {
+        "title": "Incubation and Startup Consulting",
+        "paragraph": "Providing startups with tailored mentorship, resources, and strategic guidance to accelerate growth."
+      },
+      "s2": {
+        "title": "Investment Promotion",
+        "paragraph": "Driving economic growth by connecting investors with high-potential opportunities and fostering a thriving investment ecosystem."
+      },
+      "s3": {
+        "title": "Strategic Advisory to Governments",
+        "paragraph": "Offering expert advice to government bodies on policy, strategy, and economic development for impactful, sustainable growth."
+      },
+      "s4": {
+        "title": "International Market Entry Assistance",
+        "paragraph": "Guiding businesses through market research, strategy, and connections to successfully enter and expand in global markets."
+      },
+      "s5": {
+        "title": "Fundraising Support through IM Angels",
+        "paragraph": "Connecting startups with a network of investors to secure essential funding and fuel their growth journeys."
+      },
+      "s6": {
+        "title": "Curated Cohorts for Public Sector",
+        "paragraph": "Building tailored programs to address specific public sector needs, enhancing innovation and collaborative solutions."
+      }
+    }
+  },
+  "menu": {
+    "menu1": "About IM",
+    "menu2": {
+      "services": "Services",
+      "sub1": "Incubation and Startup Consulting",
+      "sub2": "Strategic Advisory To Governments",
+      "sub3": "Investment Promotion",
+      "sub4": "Elevate By IM"
+    },
+    "menu3": {
+      "fdi": "FDI",
+      "sub1": "FDI Institute",
+      "sub2": "FDI CRM",
+      "sub3": "Trade Intelligence Platform",
+      "sub4": "FDI Intelligence Platform"
+    },
+    "menu4": "Career",
+    "menu5": "Resources",
+    "menu6": "Elevate by IM"
+  },
+  "im_edge":{
+    "small":"The IM Edge",
+    "big_white":"Cross Border Innovation Promotion",
+    "big_blue":"and Local Economic Development.",
+    "paragraph":"Incubation Masters is committed to empowering ambitious entrepreneurs and organizations with the insights, resources, and support they need to drive meaningful change.",
+    "list":{"l1":{"title":"Incubators and Accelerators","para":"We create specialized incubators and accelerators in collaboration with local governments, fostering product development among youth and driving local economic growth."},
+            "l2":{"title":"Cross Border Access of Innovation","para":"Incubation Masters enables startups to enter global markets with strategic guidance, networks, and cohort programs focused on solving government challenges, backed by investment support."},
+            "l3":{"title":"Trade, Export & Investment Promotion","para":"With a strong presence in key global markets, we connect closely with traders, exporters, and investors, representing government interests abroad to foster relationships and promote trade."},
+          "l4":{"title":"FDi Institute","para":"As economic development professionals, we combine deep market knowledge with strategic insights, understanding how industry trends and corporate strategies align to drive growth daily."}}
+  },
+  "why_im":{
+    "small":"Why Incubation Masters",
+    "big":"Why Startups GloballyChoose Working with IMworking with us",
+    "para":"Whether you’re launching a new venture or scaling an established enterprise, team IM of experts provides the tools, strategies, and insights needed to succeed.",
+    "list":{"l1":{"title":"Global Network","para":"Access our expansive network of industry leaders, investors, mentors, technical partners, and partners across the globe."},
+          "l2":{"title":"Accelerated Growth Strategies","para":"Our proven methodologies and hands-on approach are designed to fast-track your journey from startup to market leader."},
+          "l3":{"title":"Seamless Integration of Technology, Innovation & Execution","para":"We combine visionary thinking with actionable strategies, helping you transform ideas into impactful business solutions."}},
+    "button":"Get in Touch"     
+  },
+  "count":
+  {
+    "c1":"Startups Curated",
+    "c2":"Incubators Created",
+    "c3":"Partner Network Strength",
+    "c4":"Funding Facilitated"
+  },
+  "footer":
+  {
+    "section1":{"p1":"Subscribe to our news letter","button":"Submit"},
+    "section2":{"heading":"Useful Links",
+                "menu1":"About Us",
+                "menu2":"Insights",
+                "menu3":"Career",
+                "menu4":"Resources",
+                "Contact Us":"Contact Us"},
+    "section3":{"heading":"Resouces",
+                "menu1":"FDI",
+                "menu2":"FDI CRM",
+                "menu3":"Trade Intelligence Plateform",
+                "menu4":"FDI Intelligence Plateform"},
+    "section4":{"heading":"contact information",
+                "address":"E07, 8th Floor, Bansal One, Bhopal 462016 MP, IN"}
+  },
+  "footer_bottom":{"menu1":"Terms of Use","menu2":"Privacy Policy."},
+  "about_page":{
+    "heading":"About Us",
+    "small":"about Us",
+    "big_white":"The Trusted Partner in Business",
+    "big_blue":"Transformation.",
+    "para1":"Incubation Masters, a premier business consulting firm, dedicated to empowering early-stage companies and entrepreneurs to scale and achieve their full potential. Our comprehensive services range from startup and business consulting to advanced, AI-powered solutions tailored specifically for innovative startups globally. Through our expertise, resources, and cutting-edge tools like Elevate by IM (EIM), we help our clients navigate the complexities of the startup ecosystem and position themselves for sustainable success.",
+    "para2":"Our team comprises seasoned professionals with deep industry knowledge, technical expertise, and experience across various sectors. Whether you are in tech, healthcare, e-commerce, or any other field, we understand the nuances of your industry and tailor our solutions to meet your unique needs."
+  },
+  "fdi_page1":
+  {
+     "heading":"FDI Institute",
+     "small":"about Us",
+     "title":"FDI Institute",
+     "sub":"Introducing the FDi Institute - Empowering Economic Development Professionals",
+     "para1":"Working as an economic development professional is an intricate and demanding endeavor. It necessitates not only a profound understanding of market dynamics and industry trends but also a keen insight into corporate strategies and how these intricate elements interconnect on a daily basis.",
+     "para2":"At InterDiplom Masters, we recognize the challenges and complexities that economic development professionals face. To empower you with the knowledge and skills essential for success, we proudly present the FDi Institute—an integral component of our FDiMasters Suite.",
+     "list":{
+      "l1":{"title":"Elevating Expertise","para":"The FDi Institute is your gateway to practical tools and resources designed to enhance your proficiency and expertise as an economic developer. It is a subscription service meticulously crafted to cater to the unique needs of professionals like you, who are committed to driving economic growth and investment attraction."},
+      "l2":{"title":"A Comprehensive Learning Platform","para":"Our platform covers a wide spectrum of essential subjects, from investment promotion best practices and marketing strategies to understanding value propositions, lead generation techniques, and the intricacies of facilitating investments. We provide comprehensive resources that equip you with the knowledge and tools required for successful business retention and expansion (aftercare) services."},
+      "l3":{"title":"Professional Certification","para":"Subscribers to the FDi Institute not only gain access to a wealth of knowledge but also have the opportunity to earn professional certifications. These certifications are a testament to your expertise and dedication to your field, enhancing your credibility in the industry."},
+      "l4":{"title":"Cutting-Edge Insights","para":"In addition to the valuable training and certification, subscribers benefit from exclusive access to specially developed report content. Stay updated with the latest industry insights, policy advancements, and practical strategies. Our platform offers a direct connection to our team's most recent thinking on issues ranging from policy development to hands-on practices."},
+      "l5":{"title":"Personal and Organizational Enhancement","para":"The FDi Institute isn't just about personal growth; it's an opportunity for your entire organization to excel. It enables your team to update and refresh critical knowledge and skills, ultimately enhancing both personal and organizational effectiveness. By investing in your professional development, you're investing in your organization's success."},
+      "l6":{"title":"Join Us in the Pursuit of Excellence","para":"The FDi Institute is your companion on the journey to excellence in economic development. Whether you're an industry veteran or just beginning your career, our platform provides the knowledge, certification, and resources to help you thrive in this dynamic field."}
+     },
+     "buttom_line":"Embrace the future of economic development with the FDi Institute —a testament to our commitment to your success."
+  },
+  "fdi_page2":
+  {
+     "heading":"FDI CRM",
+     "small":"FDI CRM",
+     "title":"FDI CRM",
+     "sub":"FDi CRM - Redefining Investor Relationship Management",
+     "para1":"Traditional CRM systems fall short when it comes to managing the intricate investor life-cycle that Economic Development Organizations (EDOs) and Investment Promotion Agencies (IPAs) encounter daily. Enter InterDiplom CRM, an integral component of our FDiMasters Suite.",
+     "list":{
+      "l1":{"title":"A Holistic Approach to Investor Management","para":"InterDiplom CRM, unlike conventional solutions, empowers EDOs and IPAs to manage the entire investor life-cycle seamlessly. Our innovative platform is designed to help you not only attract new investments but also build and nurture invaluable investor relationships. It facilitates engagement with investors, enabling them to realize their full potential, and supports existing investors through robust aftercare and business retention and expansion (BRE) strategies."},
+      "l2":{"title":"Customization Without Hidden Costs","para":"What sets InterDiplom CRM apart is its intuitive design that allows for rapid customization. Tailor the system to align perfectly with your unique service offerings, without the burden of hidden costs. We believe in transparency and simplicity, ensuring that our platform aligns precisely with your organization's requirements."},
+      "l3":{"title":"Streamlined Onboarding and Support","para":"We understand that adopting a new system can be challenging. That's why we've streamlined the process to make it as smooth as possible. With InterDiplom CRM, you can expect fast and easy onboarding, supported by our expert team. From system setup to data migration and training, every step is included in the license fee. We're here to ensure that your transition to our CRM solution is hassle-free."},
+      "l4":{"title":"Your Partner in Investor Success","para":"InterDiplom CRM isn't just a tool; it's a strategic partner in your mission to drive economic growth and attract investments. We provide you with the capabilities and support you need to manage investors effectively, nurturing relationships, and maximizing aftercare efforts."}
+      
+     },
+     "buttom_line":"Choose InterDiplom CRM as your trusted companion in redefining investor relationship management. Join us in the pursuit of excellence, where investor success is the ultimate goal."
+  },
+  "fdi_page3":
+  {
+     "heading":"Trade Intelligence",
+     "small":"Trade Intelligence",
+     "title":"Trade Intelligence",
+     "sub":"Trade Intelligence Platform: Unleash Market Insights with Precision",
+     "para1":"As a vital component of the FDiMasters Suite, our Trade Intelligence Platform is your gateway to a wealth of market insights and support services. Designed to empower international companies, our platform offers a single, on-demand, email-enabled call center for export counseling and assistance, ensuring a seamless journey into the Indian market.",
+     "list_heading":"Key Features",
+     "list":{
+      "l1":{"title":"Navigating Complex Terrain","para":"We provide essential information on import tariffs, taxes, and customs procedures in India, helping you efficiently manage the intricacies of cross-border trade."},
+      "l2":{"title":"Compliance and Regulations","para":"Stay informed about commercial standards, regulations, and practices, ensuring your operations align with Indian business norms and intellectual property rights."},
+      "l3":{"title":"Market Expertise","para":"Access detailed market information, including distribution channels, business travel insights, and other invaluable data, to make informed decisions in the Indian market."},
+      "l4":{"title":"Strategic Insights","para":"Identify opportunities and best prospects tailored to your industry and company profile, ensuring you maximize your growth potential in India."}
+      
+     }
+  },
+  "fdi_page4":
+  {
+     "heading":"FDI Intelligence",
+     "small":"FDI Intelligence",
+     "title":"FDI Intelligence",
+     "sub":"FDI Intelligence Platform: Unlock Investment Opportunities with Precision",
+     "para1":"At the heart of the FDiMasters Suite, our FDI Intelligence Platform is your gateway to a world of investment insights and opportunities. Powered by an extensive in-house database, we specialize in identifying Indian companies with international expansion plans and investment potential.",
+     "list_heading":"Key Features",
+     "list":{
+      "l1":{"title":"Comprehensive Indian Insights","para":"Our platform boasts a meticulously curated database of Indian companies and contacts, offering unparalleled accuracy. Every piece of information undergoes manual verification to ensure reliability."},
+      "l2":{"title":"Industry-Focused Searches","para":"Tailor your searches to specific Indian industries across various sectors, allowing you to pinpoint investment prospects that align with your objectives."},
+      "l3":{"title":"Investment Potential Analysis","para":"Dive deep into individual companies to scan for signs of investment potential, helping you identify the most promising opportunities in the Indian market."},
+      "l4":{"title":"Effortless Customization","para":"Our platform empowers you to search, filter, sort, and export targeted lists effortlessly, streamlining your investment research and decision-making process."}
+      
+     }
+  },
+  "career_page":
+  {
+     "heading":"Career",
+     "small":"Career",
+     "para":"At IM, we are more than just a business consulting firm; we are a community of passionate individuals driven by a shared mission to empower businesses globally. We believe in nurturing talent, fostering creativity, and providing opportunities for professional growth. If you are passionate about innovation, strategic consulting, and helping startups thrive, we want to hear from you!",
+     "form":{
+      "f1":"Name",
+      "f2":"Email",
+      "f3":"Mobile",
+      "f4":"Why do you want to work for IM?",
+      "f5":"Upload Resume",
+      "button":"Submit"
+     }
+  },
+  "resource_page":
+  {
+     "heading":"Resources",
+     "small":"Resources",
+     "list":{
+      "l1":"Podcast",
+      "l2":"Webinar",
+      "l3":"Startup Republic Blog"
+     }
+  },
+  "elevate_by_im":
+  {  
+     "small":"Elevate by IM",
+     "heading":"A Groundbreaking 3D immersive Growth Experience for",
+     "blue":"Startups",
+     "para":"Elevate by Incubation Masters (EIM) is a 3D immersive business incubation program designed to support startups in Asian Countries. By leveraging AI, a resourceful network, EIM offers entrepreneurs a comprehensive ecosystem where they can access tailored resources, collaborate with like-minded startups, and connect with mentors, investors, interns, tech talents and other essential stakeholders—all under a single virtual roof. EIM provides startups with customized services and resources to meet their unique challenges and ensure their growth under the guidance of dedicated mentors.",
+     "program":{
+      "p1":{"title":"Alpha","button":"Read More","para":"Targeted at very early-stage startups. Services include basic guidance, idea validation, draft business model, access to resources, and community support."},
+      "p2":{"title":"Beta","button":"Read More","para":"Focus on refining business models, developing MVPs, and legal compliance along with establishing a structured approach to market entry"},
+      "p3":{"title":"Gamma","button":"Read More","para":"Advanced support with increased service offerings, mentorship, and funding guidance targeting accelerated growth."},
+      "p4":{"title":"Sigma","button":"Read More", "para":"Final phase focusing on expansion, fund raising, team building, and advanced business strategies to scale effectively and access new growth opportunities."}
+     }
   }
+
+}

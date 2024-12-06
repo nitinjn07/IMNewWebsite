@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useTranslation } from "react-i18next";
 export default function About() {
+  const { t } = useTranslation("");
   return (
     <>
       <div>
@@ -17,7 +18,7 @@ export default function About() {
           <div className="container">
             <div className="hero-text-area centerd">
               <h1 className="hero-title  wow fadeInUp" data-wow-delay=".2s">
-                About Us
+                {t("about_page.heading")}
               </h1>
               <nav aria-label="breadcrumb ">
                 <ul className="breadcrumb wow fadeInUp" data-wow-delay=".6s">
@@ -27,7 +28,9 @@ export default function About() {
                       home
                     </a>
                   </li>
-                  <li className="breadcrumb-item active">about us</li>
+                  <li className="breadcrumb-item active">
+                    {t("about_page.small")}
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -51,19 +54,18 @@ export default function About() {
                           className=" pre-title       wow fadeInUp "
                           data-wow-delay=".2s"
                         >
-                          about Us
+                          {t("about_page.small")}
                         </span>
                         <h2
                           className=" title    wow fadeInUp"
                           data-wow-delay=".4s"
                         >
                           <span className="hollow-text">
-                            The Trusted Partner{" "}
+                            {t("about_page.big_white")}{" "}
                           </span>{" "}
-                          in Business{" "}
                           <span className="featured-text">
                             {" "}
-                            Transformation.{" "}
+                            {t("about_page.big_blue")}{" "}
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 500 150"
@@ -76,26 +78,8 @@ export default function About() {
                       </div>
                     </div>
 
-                    <p>
-                      Incubation Masters, a premier business consulting firm,
-                      dedicated to empowering early-stage companies and
-                      entrepreneurs to scale and achieve their full potential.
-                      Our comprehensive services range from startup and business
-                      consulting to advanced, AI-powered solutions tailored
-                      specifically for innovative startups globally. Through our
-                      expertise, resources, and cutting-edge tools like Elevate
-                      by IM (EIM), we help our clients navigate the complexities
-                      of the startup ecosystem and position themselves for
-                      sustainable success.
-                    </p>
-                    <p>
-                      Our team comprises seasoned professionals with deep
-                      industry knowledge, technical expertise, and experience
-                      across various sectors. Whether you are in tech,
-                      healthcare, e-commerce, or any other field, we understand
-                      the nuances of your industry and tailor our solutions to
-                      meet your unique needs.
-                    </p>
+                    <p>{t("about_page.para1")}</p>
+                    <p>{t("about_page.para2")}</p>
                   </div>
                 </div>
                 <div
