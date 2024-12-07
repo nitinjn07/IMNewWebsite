@@ -18,7 +18,7 @@ export default function FDIIntelligence() {
         <div class="container">
           <div class="hero-text-area centerd">
             <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">
-              FDI Intelligence{" "}
+              {t("fdi_page4.heading")}
             </h1>
             <nav aria-label="breadcrumb ">
               <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
@@ -27,7 +27,7 @@ export default function FDIIntelligence() {
                     <i class="bi bi-house icon "></i>home
                   </a>
                 </li>
-                <li class="breadcrumb-item active">FDI Intelligence</li>
+                <li class="breadcrumb-item active">{t("fdi_page4.heading")}</li>
               </ul>
             </nav>
           </div>
@@ -49,29 +49,20 @@ export default function FDIIntelligence() {
                         className=" pre-title       wow fadeInUp "
                         data-wow-delay=".2s"
                       >
-                        FDI Intelligence Plateform
+                        {t("fdi_page4.heading")}
                       </span>
                       <h2
                         className=" title    wow fadeInUp"
                         data-wow-delay=".4s"
                       >
                         <span className="hollow-text">
-                          FDI Intelligence Plateform
+                          {t("fdi_page4.heading")}
                         </span>
                       </h2>
                     </div>
                   </div>
-                  <h3>
-                    FDI Intelligence Platform: Unlock Investment Opportunities
-                    with Precision
-                  </h3>
-                  <p>
-                    At the heart of the FDiMasters Suite, our FDI Intelligence
-                    Platform is your gateway to a world of investment insights
-                    and opportunities. Powered by an extensive in-house
-                    database, we specialize in identifying Indian companies with
-                    international expansion plans and investment potential.
-                  </p>
+                  <h3>{t("fdi_page4.sub")}</h3>
+                  <p>{t("fdi_page4.para1")}</p>
                 </div>
               </div>
               <div
@@ -98,7 +89,7 @@ export default function FDIIntelligence() {
         <div className="container">
           <div className="row gx-4 gy-4 services-row ">
             <div class="col-md-12 py-5">
-              <h2>Key Features</h2>
+              <h2>{t("fdi_page4.list_heading")}</h2>
             </div>
             <div className="col-12 col-md-6  col-lg-4 mx-auto ">
               {/*Start First service box*/}
@@ -113,14 +104,9 @@ export default function FDIIntelligence() {
                 <span className="service-num hollow-text">1 </span>
                 <div className="service-content">
                   <h3 className="service-title">
-                    Comprehensive Indian Insights
+                    {t("fdi_page4.list.l1.title")}
                   </h3>
-                  <p className="service-text">
-                    Our platform boasts a meticulously curated database of
-                    Indian companies and contacts, offering unparalleled
-                    accuracy. Every piece of information undergoes manual
-                    verification to ensure reliability.
-                  </p>
+                  <p className="service-text">{t("fdi_page4.list.l1.para")}</p>
                 </div>
               </div>
               {/* End First service box   */}
@@ -137,12 +123,10 @@ export default function FDIIntelligence() {
                 </div>
                 <span className="service-num hollow-text">2 </span>
                 <div className="service-content">
-                  <h3 className="service-title">Industry-Focused Searches</h3>
-                  <p className="service-text">
-                    Tailor your searches to specific Indian industries across
-                    various sectors, allowing you to pinpoint investment
-                    prospects that align with your objectives.
-                  </p>
+                  <h3 className="service-title">
+                    {t("fdi_page4.list.l2.title")}
+                  </h3>
+                  <p className="service-text">{t("fdi_page4.list.l2.para")}</p>
                 </div>
               </div>
               {/* End Second service box*/}
@@ -160,13 +144,9 @@ export default function FDIIntelligence() {
                 <span className="service-num hollow-text">3 </span>
                 <div className="service-content">
                   <h3 className="service-title">
-                    Investment Potential Analysis
+                    {t("fdi_page4.list.l3.title")}
                   </h3>
-                  <p className="service-text">
-                    Dive deep into individual companies to scan for signs of
-                    investment potential, helping you identify the most
-                    promising opportunities in the Indian market.
-                  </p>
+                  <p className="service-text">{t("fdi_page4.list.l3.para")}</p>
                 </div>
               </div>
               {/* End Third service box*/}
@@ -183,12 +163,10 @@ export default function FDIIntelligence() {
                 </div>
                 <span className="service-num hollow-text">4 </span>
                 <div className="service-content">
-                  <h3 className="service-title">Effortless Customization</h3>
-                  <p className="service-text">
-                    Our platform empowers you to search, filter, sort, and
-                    export targeted lists effortlessly, streamlining your
-                    investment research and decision-making process.
-                  </p>
+                  <h3 className="service-title">
+                    {t("fdi_page4.list.l4.title")}
+                  </h3>
+                  <p className="service-text">{t("fdi_page4.list.l4.para")}</p>
                 </div>
               </div>
               {/* End fourth service box   */}

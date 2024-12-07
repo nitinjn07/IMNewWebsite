@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 export default function Elevate() {
+  const { t } = useTranslation("");
   return (
     <>
       <div>
@@ -45,11 +47,13 @@ export default function Elevate() {
                         </div>
                       </div>
                       <div className="col-12       ">
-                        <div className="pre-title ">Elevate by IM </div>
+                        <div className="pre-title ">
+                          {t("elevate_by_im.heading")}{" "}
+                        </div>
                         <h1 className="hero-title  ">
-                          A Groundbreaking 3D immersive Growth Experience for{" "}
+                          {t("elevate_by_im.heading")}{" "}
                           <span className="featured-text">
-                            Startups{" "}
+                            {t("elevate_by_im.blue")}{" "}
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="wavey-underline"
@@ -73,18 +77,7 @@ export default function Elevate() {
                       </div>
                       <div className="col-10">
                         <p className="hero-subtitle">
-                          Elevate by Incubation Masters (EIM) is a 3D immersive
-                          business incubation program designed to support
-                          startups in Asian Countries. By leveraging AI, a
-                          resourceful network, EIM offers entrepreneurs a
-                          comprehensive ecosystem where they can access tailored
-                          resources, collaborate with like-minded startups, and
-                          connect with mentors, investors, interns, tech talents
-                          and other essential stakeholders—all under a single
-                          virtual roof. EIM provides startups with customized
-                          services and resources to meet their unique challenges
-                          and ensure their growth under the guidance of
-                          dedicated mentors.
+                          {t("elevate_by_im.para")}
                         </p>
                       </div>
                       <div className="col-12   "></div>
@@ -108,10 +101,12 @@ export default function Elevate() {
                     className=" pre-title       wow fadeInUp "
                     data-wow-delay=".2s"
                   >
-                    EIM Program Structure
+                    {t("elevate_by_im.program.p1.title")}
                   </span>
                   <h2 className=" title    wow fadeInUp" data-wow-delay=".4s">
-                    <span className="hollow-text">Four Progressive </span>{" "}
+                    <span className="hollow-text">
+                      {t("elevate_by_im.program.p1.title")}{" "}
+                    </span>{" "}
                     Phases
                   </h2>
                 </div>
@@ -129,15 +124,16 @@ export default function Elevate() {
                     </div>
                     <span className="service-num hollow-text">1 </span>
                     <div className="service-content">
-                      <h3 className="service-title">Alpha</h3>
+                      <h3 className="service-title">
+                        {" "}
+                        {t("elevate_by_im.program.p1.title")}
+                      </h3>
                       <p className="service-text">
-                        Targeted at very early-stage startups. Services include
-                        basic guidance, idea validation, draft business model,
-                        access to resources, and community support.
+                        {t("elevate_by_im.program.p1.para")}
                       </p>
                     </div>
                     <Link className="read-more" to="/Alpha">
-                      read more
+                      {t("elevate_by_im.program.p1.button")}
                       <i className="bi bi-arrow-right icon " />
                     </Link>
                   </div>
@@ -155,15 +151,15 @@ export default function Elevate() {
                     </div>
                     <span className="service-num hollow-text">1 </span>
                     <div className="service-content">
-                      <h3 className="service-title">Beta</h3>
+                      <h3 className="service-title">
+                        {t("elevate_by_im.program.p2.title")}
+                      </h3>
                       <p className="service-text">
-                        Focus on refining business models, developing MVPs, and
-                        legal compliance along with establishing a structured
-                        approach to market entry
+                        {t("elevate_by_im.program.p2.para")}
                       </p>
                     </div>
                     <Link className="read-more" to="/Beta">
-                      read more
+                      {t("elevate_by_im.program.p2.button")}
                       <i className="bi bi-arrow-right icon " />
                     </Link>
                   </div>
@@ -180,15 +176,15 @@ export default function Elevate() {
                     </div>
                     <span className="service-num hollow-text">1 </span>
                     <div className="service-content">
-                      <h3 className="service-title">Gamma</h3>
+                      <h3 className="service-title">
+                        {t("elevate_by_im.program.p3.title")}
+                      </h3>
                       <p className="service-text">
-                        Advanced support with increased service offerings,
-                        mentorship, and funding guidance targeting accelerated
-                        growth.
+                        {t("elevate_by_im.program.p3.para")}
                       </p>
                     </div>
                     <Link className="read-more" to="/Gamma">
-                      read more
+                      {t("elevate_by_im.program.p3.button")}
                       <i className="bi bi-arrow-right icon " />
                     </Link>
                   </div>
@@ -204,15 +200,15 @@ export default function Elevate() {
                     </div>
                     <span className="service-num hollow-text">1 </span>
                     <div className="service-content">
-                      <h3 className="service-title">Sigma</h3>
+                      <h3 className="service-title">
+                        {t("elevate_by_im.program.p4.title")}
+                      </h3>
                       <p className="service-text">
-                        Final phase focusing on expansion, fund raising, team
-                        building, and advanced business strategies to scale
-                        effectively and access new growth opportunities.
+                        {t("elevate_by_im.program.p4.para")}
                       </p>
                     </div>
                     <Link className="read-more" to="/Sigma">
-                      read more
+                      {t("elevate_by_im.program.p4.button")}
                       <i className="bi bi-arrow-right icon " />
                     </Link>
                   </div>

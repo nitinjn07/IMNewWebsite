@@ -17,7 +17,7 @@ export default function FDIInstitute() {
         <div class="container">
           <div class="hero-text-area centerd">
             <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">
-              FDI Institute{" "}
+              {t("fdi_page1.heading")}{" "}
             </h1>
             <nav aria-label="breadcrumb ">
               <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
@@ -26,7 +26,7 @@ export default function FDIInstitute() {
                     <i class="bi bi-house icon "></i>home
                   </a>
                 </li>
-                <li class="breadcrumb-item active">FDI Institute</li>
+                <li class="breadcrumb-item active">{t("fdi_page1.heading")}</li>
               </ul>
             </nav>
           </div>
@@ -48,34 +48,21 @@ export default function FDIInstitute() {
                         className=" pre-title       wow fadeInUp "
                         data-wow-delay=".2s"
                       >
-                        about Us
+                        {t("fdi_page1.small")}
                       </span>
                       <h2
                         className=" title    wow fadeInUp"
                         data-wow-delay=".4s"
                       >
-                        <span className="hollow-text">FDI Institute</span>
+                        <span className="hollow-text">
+                          {t("fdi_page1.heading")}
+                        </span>
                       </h2>
                     </div>
                   </div>
-                  <h3>
-                    Introducing the FDi Institute - Empowering Economic
-                    Development Professionals
-                  </h3>
-                  <p>
-                    Working as an economic development professional is an
-                    intricate and demanding endeavor. It necessitates not only a
-                    profound understanding of market dynamics and industry
-                    trends but also a keen insight into corporate strategies and
-                    how these intricate elements interconnect on a daily basis.
-                  </p>
-                  <p>
-                    At InterDiplom Masters, we recognize the challenges and
-                    complexities that economic development professionals face.
-                    To empower you with the knowledge and skills essential for
-                    success, we proudly present the FDi Institute—an integral
-                    component of our FDiMasters Suite.
-                  </p>
+                  <h3>{t("fdi_page1.sub")}</h3>
+                  <p>{t("fdi_page1.para1")}</p>
+                  <p>{t("fdi_page1.para2")}</p>
                 </div>
               </div>
               <div
@@ -113,15 +100,10 @@ export default function FDIInstitute() {
                 </div>
                 <span className="service-num hollow-text">1 </span>
                 <div className="service-content">
-                  <h3 className="service-title">Elevating Expertise</h3>
-                  <p className="service-text">
-                    The FDi Institute is your gateway to practical tools and
-                    resources designed to enhance your proficiency and expertise
-                    as an economic developer. It is a subscription service
-                    meticulously crafted to cater to the unique needs of
-                    professionals like you, who are committed to driving
-                    economic growth and investment attraction.
-                  </p>
+                  <h3 className="service-title">
+                    {t("fdi_page1.list.l1.title")}
+                  </h3>
+                  <p className="service-text">{t("fdi_page1.list.l1.para")}</p>
                 </div>
               </div>
               {/* End First service box   */}
@@ -139,17 +121,9 @@ export default function FDIInstitute() {
                 <span className="service-num hollow-text">2 </span>
                 <div className="service-content">
                   <h3 className="service-title">
-                    A Comprehensive Learning Platform
+                    {t("fdi_page1.list.l2.title")}
                   </h3>
-                  <p className="service-text">
-                    Our platform covers a wide spectrum of essential subjects,
-                    from investment promotion best practices and marketing
-                    strategies to understanding value propositions, lead
-                    generation techniques, and the intricacies of facilitating
-                    investments. We provide comprehensive resources that equip
-                    you with the knowledge and tools required for successful
-                    business retention and expansion (aftercare) services.
-                  </p>
+                  <p className="service-text">{t("fdi_page1.list.l2.para")}</p>
                 </div>
               </div>
               {/* End Second service box*/}
@@ -166,14 +140,10 @@ export default function FDIInstitute() {
                 </div>
                 <span className="service-num hollow-text">3 </span>
                 <div className="service-content">
-                  <h3 className="service-title">Professional Certification</h3>
-                  <p className="service-text">
-                    Subscribers to the FDi Institute not only gain access to a
-                    wealth of knowledge but also have the opportunity to earn
-                    professional certifications. These certifications are a
-                    testament to your expertise and dedication to your field,
-                    enhancing your credibility in the industry.
-                  </p>
+                  <h3 className="service-title">
+                    {t("fdi_page1.list.l3.title")}
+                  </h3>
+                  <p className="service-text">{t("fdi_page1.list.l3.para")}</p>
                 </div>
               </div>
               {/* End Third service box*/}
@@ -190,16 +160,10 @@ export default function FDIInstitute() {
                 </div>
                 <span className="service-num hollow-text">4 </span>
                 <div className="service-content">
-                  <h3 className="service-title">Cutting-Edge Insights</h3>
-                  <p className="service-text">
-                    In addition to the valuable training and certification,
-                    subscribers benefit from exclusive access to specially
-                    developed report content. Stay updated with the latest
-                    industry insights, policy advancements, and practical
-                    strategies. Our platform offers a direct connection to our
-                    team's most recent thinking on issues ranging from policy
-                    development to hands-on practices.
-                  </p>
+                  <h3 className="service-title">
+                    {t("fdi_page1.list.l4.title")}
+                  </h3>
+                  <p className="service-text">{t("fdi_page1.list.l4.para")}</p>
                 </div>
               </div>
               {/* End fourth service box   */}
@@ -217,17 +181,9 @@ export default function FDIInstitute() {
                 <span className="service-num hollow-text">5 </span>
                 <div className="service-content">
                   <h3 className="service-title">
-                    Personal and Organizational Enhancement
+                    {t("fdi_page1.list.l5.title")}
                   </h3>
-                  <p className="service-text">
-                    The FDi Institute isn't just about personal growth; it's an
-                    opportunity for your entire organization to excel. It
-                    enables your team to update and refresh critical knowledge
-                    and skills, ultimately enhancing both personal and
-                    organizational effectiveness. By investing in your
-                    professional development, you're investing in your
-                    organization's success.
-                  </p>
+                  <p className="service-text">{t("fdi_page1.list.l5.para")}</p>
                 </div>
               </div>
               {/* End 5th service box*/}
@@ -245,15 +201,9 @@ export default function FDIInstitute() {
                 <span className="service-num hollow-text">6 </span>
                 <div className="service-content">
                   <h3 className="service-title">
-                    Join Us in the Pursuit of Excellence
+                    {t("fdi_page1.list.l6.title")}
                   </h3>
-                  <p className="service-text">
-                    The FDi Institute is your companion on the journey to
-                    excellence in economic development. Whether you're an
-                    industry veteran or just beginning your career, our platform
-                    provides the knowledge, certification, and resources to help
-                    you thrive in this dynamic field.
-                  </p>
+                  <p className="service-text">{t("fdi_page1.list.l6.para")}</p>
                 </div>
               </div>
               {/* End 6th service box*/}
@@ -261,10 +211,7 @@ export default function FDIInstitute() {
           </div>
           <div className="row">
             <div className="col-md-12">
-              <h2 className="text-center">
-                Embrace the future of economic development with the FDi
-                Institute —a testament to our commitment to your success.
-              </h2>
+              <h2 className="text-center">{t("fdi_page1.buttom_line")}</h2>
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ export default function FDICRM() {
         <div class="container">
           <div class="hero-text-area centerd">
             <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">
-              FDI CRM{" "}
+              {t("fdi_page2.heading")}
             </h1>
             <nav aria-label="breadcrumb ">
               <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
@@ -26,7 +26,7 @@ export default function FDICRM() {
                     <i class="bi bi-house icon "></i>home
                   </a>
                 </li>
-                <li class="breadcrumb-item active">FDI CRM</li>
+                <li class="breadcrumb-item active">{t("fdi_page2.heading")}</li>
               </ul>
             </nav>
           </div>
@@ -48,24 +48,20 @@ export default function FDICRM() {
                         className=" pre-title       wow fadeInUp "
                         data-wow-delay=".2s"
                       >
-                        FDI CRM
+                        {t("fdi_page2.heading")}
                       </span>
                       <h2
                         className=" title    wow fadeInUp"
                         data-wow-delay=".4s"
                       >
-                        <span className="hollow-text">FDI CRM</span>
+                        <span className="hollow-text">
+                          {t("fdi_page2.heading")}
+                        </span>
                       </h2>
                     </div>
                   </div>
-                  <h3>FDi CRM - Redefining Investor Relationship Management</h3>
-                  <p>
-                    Traditional CRM systems fall short when it comes to managing
-                    the intricate investor life-cycle that Economic Development
-                    Organizations (EDOs) and Investment Promotion Agencies
-                    (IPAs) encounter daily. Enter InterDiplom CRM, an integral
-                    component of our FDiMasters Suite.
-                  </p>
+                  <h3>{t("fdi_page2.sub")}</h3>
+                  <p>{t("fdi_page2.para1")}</p>
                 </div>
               </div>
               <div
@@ -104,19 +100,9 @@ export default function FDICRM() {
                 <span className="service-num hollow-text">1 </span>
                 <div className="service-content">
                   <h3 className="service-title">
-                    A Holistic Approach to Investor Management
+                    {t("fdi_page2.list.l1.title")}
                   </h3>
-                  <p className="service-text">
-                    InterDiplom CRM, unlike conventional solutions, empowers
-                    EDOs and IPAs to manage the entire investor life-cycle
-                    seamlessly. Our innovative platform is designed to help you
-                    not only attract new investments but also build and nurture
-                    invaluable investor relationships. It facilitates engagement
-                    with investors, enabling them to realize their full
-                    potential, and supports existing investors through robust
-                    aftercare and business retention and expansion (BRE)
-                    strategies.
-                  </p>
+                  <p className="service-text">{t("fdi_page2.list.l1.para")}</p>
                 </div>
               </div>
               {/* End First service box   */}
@@ -134,16 +120,9 @@ export default function FDICRM() {
                 <span className="service-num hollow-text">2 </span>
                 <div className="service-content">
                   <h3 className="service-title">
-                    Customization Without Hidden Costs
+                    {t("fdi_page2.list.l2.title")}
                   </h3>
-                  <p className="service-text">
-                    What sets InterDiplom CRM apart is its intuitive design that
-                    allows for rapid customization. Tailor the system to align
-                    perfectly with your unique service offerings, without the
-                    burden of hidden costs. We believe in transparency and
-                    simplicity, ensuring that our platform aligns precisely with
-                    your organization's requirements.
-                  </p>
+                  <p className="service-text">{t("fdi_page2.list.l2.para")}</p>
                 </div>
               </div>
               {/* End Second service box*/}
@@ -161,17 +140,9 @@ export default function FDICRM() {
                 <span className="service-num hollow-text">3 </span>
                 <div className="service-content">
                   <h3 className="service-title">
-                    Streamlined Onboarding and Support
+                    {t("fdi_page2.list.l3.title")}
                   </h3>
-                  <p className="service-text">
-                    We understand that adopting a new system can be challenging.
-                    That's why we've streamlined the process to make it as
-                    smooth as possible. With InterDiplom CRM, you can expect
-                    fast and easy onboarding, supported by our expert team. From
-                    system setup to data migration and training, every step is
-                    included in the license fee. We're here to ensure that your
-                    transition to our CRM solution is hassle-free.
-                  </p>
+                  <p className="service-text">{t("fdi_page2.list.l3.para")}</p>
                 </div>
               </div>
               {/* End Third service box*/}
@@ -189,15 +160,9 @@ export default function FDICRM() {
                 <span className="service-num hollow-text">4 </span>
                 <div className="service-content">
                   <h3 className="service-title">
-                    Your Partner in Investor Success
+                    {t("fdi_page2.list.l4.title")}
                   </h3>
-                  <p className="service-text">
-                    InterDiplom CRM isn't just a tool; it's a strategic partner
-                    in your mission to drive economic growth and attract
-                    investments. We provide you with the capabilities and
-                    support you need to manage investors effectively, nurturing
-                    relationships, and maximizing aftercare efforts.
-                  </p>
+                  <p className="service-text">{t("fdi_page2.list.l4.para")}</p>
                 </div>
               </div>
               {/* End fourth service box   */}
@@ -205,11 +170,7 @@ export default function FDICRM() {
           </div>
           <div class="row">
             <div class="col-md-12">
-              <h2 className="text-center">
-                Choose InterDiplom CRM as your trusted companion in redefining
-                investor relationship management. Join us in the pursuit of
-                excellence, where investor success is the ultimate goal.
-              </h2>
+              <h2 className="text-center">{t("fdi_page2.buttom_line")}</h2>
             </div>
           </div>
         </div>

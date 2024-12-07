@@ -101,7 +101,7 @@ export default function Career() {
         <div className="container">
           <div className="hero-text-area centerd">
             <h1 className="hero-title  wow fadeInUp" data-wow-delay=".2s">
-              Career
+              {t("career_page.heading")}
             </h1>
             <nav aria-label="breadcrumb ">
               <ul className="breadcrumb wow fadeInUp" data-wow-delay=".6s">
@@ -111,7 +111,9 @@ export default function Career() {
                     home
                   </a>
                 </li>
-                <li className="breadcrumb-item active">Career</li>
+                <li className="breadcrumb-item active">
+                  {t("career_page.heading")}
+                </li>
               </ul>
             </nav>
           </div>
@@ -121,20 +123,13 @@ export default function Career() {
       {/* Start  about Section*/}
       <section className="about mega-section" id="about">
         <div className="container">
-          <p>
-            At IM, we are more than just a business consulting firm; we are a
-            community of passionate individuals driven by a shared mission to
-            empower businesses globally. We believe in nurturing talent,
-            fostering creativity, and providing opportunities for professional
-            growth. If you are passionate about innovation, strategic
-            consulting, and helping startups thrive, we want to hear from you!
-          </p>
+          <p>{t("career_page.para")}</p>
           {/* Start first about div*/}
           <div className="content-block  ">
             <form onSubmit={handleSubmit}>
               <div class="row" id="signup">
                 <div class="form-group col-md-6 my-2">
-                  <label>Name (*)</label>
+                  <label>{t("career_page.form.f1")} (*)</label>
                   <input
                     type="text"
                     name="name"
@@ -145,7 +140,7 @@ export default function Career() {
                   {errors.name && <p style={{ color: "red" }}>{errors.name}</p>}
                 </div>
                 <div class="form-group col-md-6 my-2">
-                  <label>Email (*)</label>
+                  <label>{t("career_page.form.f2")} (*)</label>
                   <input
                     type="email"
                     name="email"
@@ -158,7 +153,7 @@ export default function Career() {
                   )}
                 </div>
                 <div class="form-group col-md-6 my-2">
-                  <label>Mobile (*)</label>
+                  <label>{t("career_page.form.f3")} (*)</label>
                   <input
                     type="tel"
                     name="mobile"
@@ -171,7 +166,7 @@ export default function Career() {
                   )}
                 </div>
                 <div class="form-group col-md-6 my-2">
-                  <label>Why do you want to work for IM? (*)</label>
+                  <label>{t("career_page.form.f4")} (*)</label>
                   <input
                     type="text"
                     name="why_choose_us"
@@ -184,7 +179,7 @@ export default function Career() {
                   )}
                 </div>
                 <div class="form-group col-md-12 my-2">
-                  <label>Upload Resume (*)</label>
+                  <label>{t("career_page.form.f5")} (*)</label>
                   <input
                     type="file"
                     name="resume"

@@ -19,7 +19,7 @@ export default function Resources() {
           <div className="container">
             <div className="hero-text-area centerd">
               <h1 className="hero-title  wow fadeInUp" data-wow-delay=".2s">
-                Resources
+                {t("resource_page.heading")}
               </h1>
               <nav aria-label="breadcrumb ">
                 <ul className="breadcrumb wow fadeInUp" data-wow-delay=".6s">
@@ -29,7 +29,9 @@ export default function Resources() {
                       home
                     </a>
                   </li>
-                  <li className="breadcrumb-item active">Resources</li>
+                  <li className="breadcrumb-item active">
+                    {t("resource_page.heading")}
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -45,10 +47,12 @@ export default function Resources() {
                   className=" pre-title       wow fadeInUp "
                   data-wow-delay=".2s"
                 >
-                  Resources
+                  {t("resource_page.heading")}
                 </span>
                 <h2 className=" title    wow fadeInUp" data-wow-delay=".4s">
-                  Awesome <span className="hollow-text">Resources</span>
+                  <span className="hollow-text">
+                    {t("resource_page.heading")}
+                  </span>
                 </h2>
               </div>
             </div>
@@ -68,7 +72,9 @@ export default function Resources() {
                         />
                       </a>
                       <div className="item-info ">
-                        <h3 className="item-title">Podcast</h3>
+                        <h3 className="item-title">
+                          {t("resource_page.list.l1")}
+                        </h3>
                         <i className="bi bi-arrow-right icon " />
                       </div>
                     </div>
@@ -84,7 +90,9 @@ export default function Resources() {
                         />
                       </a>
                       <div className="item-info ">
-                        <h3 className="item-title">webinar</h3>
+                        <h3 className="item-title">
+                          {t("resource_page.list.l2")}
+                        </h3>
                         <i className="bi bi-arrow-right icon " />
                       </div>
                     </div>
@@ -104,7 +112,9 @@ export default function Resources() {
                         />
                       </a>
                       <div className="item-info ">
-                        <h3 className="item-title">Startup Republic Blog</h3>
+                        <h3 className="item-title">
+                          {t("resource_page.list.l3")}
+                        </h3>
                         <i className="bi bi-arrow-right icon " />
                       </div>
                     </div>
