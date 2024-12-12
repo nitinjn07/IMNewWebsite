@@ -63,7 +63,7 @@ export default function Resources() {
                 <div className="row ">
                   <div className="col-12  col-md-6  col-lg-4  portfolio-item mobile ">
                     <div className="item   ">
-                      <a className="portfolio-img-link" href="#">
+                      <a className="portfolio-img-link" href="/Podcast">
                         <img
                           className="portfolio-img   img-fluid "
                           loading="lazy"
@@ -81,7 +81,7 @@ export default function Resources() {
                   </div>
                   <div className="col-12  col-md-6  col-lg-4  portfolio-item web  ">
                     <div className="item   ">
-                      <a className="portfolio-img-link" href="#">
+                      <a className="portfolio-img-link" href="/Webinar">
                         <img
                           className="portfolio-img   img-fluid "
                           loading="lazy"
