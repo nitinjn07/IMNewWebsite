@@ -25,6 +25,8 @@ import Login from "./pages/Login";
 import ThankYou from "./pages/ThankYou";
 import Termofuse from "./pages/Termofuse";
 import { useTranslation } from "react-i18next";
+import Podcast from "./pages/Podcast";
+import Webinar from "./pages/Webinar";
 
 export default function App() {
   return (
@@ -66,6 +68,8 @@ export default function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/ThankYou" element={<ThankYou />} />
         <Route path="/term-of-use" element={<Termofuse />} />
+        <Route path="/Podcast" element={<Podcast />} />
+        <Route path="/Webinar" element={<Webinar />} />
       </Routes>
 
       <Footer />
