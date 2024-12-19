@@ -286,7 +286,7 @@ export default function Header() {
                   </li>
                   <li onClick={() => changeLanguage("en")}>
                     <a class="dropdown-item" href="#">
-                      <span class="flag-icon flag-icon-us"></span> &nbsp; en
+                      <span class="flag-icon flag-icon-us"></span> &nbsp; USA
                     </a>
                   </li>
                 </ul>
