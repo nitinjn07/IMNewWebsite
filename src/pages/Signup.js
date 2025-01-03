@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import API_BASE_URL from "./../common/config";
 
 export default function Alpha() {
+  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
   const [form, setForm] = useState({
     startup_name: "",
     email_id: "",
@@ -49,7 +51,7 @@ export default function Alpha() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/api/auth/signup", {
+      const response = await fetch(`${API_BASE_URL}/api/auth/signup`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
