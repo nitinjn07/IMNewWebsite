@@ -127,6 +127,18 @@ export default function Footer() {
                       {t("footer.section3.menu4")}
                     </Link>
                   </li>
+                  <li className="footer-menu-item">
+                    <i className="bi bi-arrow-right icon " />
+                    <Link className="footer-menu-link" to="/blog">
+                      Blog
+                    </Link>
+                  </li>
+                  <li className="footer-menu-item">
+                    <i className="bi bi-arrow-right icon " />
+                    <Link className="footer-menu-link" to="/help">
+                      Help
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -218,13 +230,7 @@ export default function Footer() {
               <div className="col-12 col-md-6 d-flex justify-content-end">
                 <div className="terms-links">
                   <Link to="/term-of-use">{t("footer_bottom.menu1")} </Link>|{" "}
-                  <a
-                    href="#0"
-                    data-bs-toggle="modal"
-                    data-bs-target="#privacyPolicyModal"
-                  >
-                    {t("footer_bottom.menu2")}
-                  </a>
+                  <Link to="/privacy-policy">{t("footer_bottom.menu2")} </Link>|{" "}
                 </div>
               </div>
             </div>

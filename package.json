@@ -2,12 +2,15 @@
   "name": "imweb",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://srepublic.in",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "flag-icon-css": "^4.1.7",
+    "http": "^0.0.1-security",
     "i18next": "^24.0.5",
     "i18next-browser-languagedetector": "^8.0.0",
     "react": "^18.3.1",
@@ -43,4 +46,5 @@
   "devDependencies": {
     "react-router-dom": "^6.27.0"
   }
+  
 }

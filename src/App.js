@@ -27,6 +27,9 @@ import Termofuse from "./pages/Termofuse";
 import { useTranslation } from "react-i18next";
 import Podcast from "./pages/Podcast";
 import Webinar from "./pages/Webinar";
+import Blog from "./pages/Blog";
+import Help from "./pages/Help";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 export default function App() {
   return (
@@ -70,6 +73,9 @@ export default function App() {
         <Route path="/term-of-use" element={<Termofuse />} />
         <Route path="/Podcast" element={<Podcast />} />
         <Route path="/Webinar" element={<Webinar />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/help" element={<Help />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
 
       <Footer />
