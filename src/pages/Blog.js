@@ -159,10 +159,7 @@ export default function Blog() {
                               <img
                                 className="parallax-img post-img"
                                 loading="lazy"
-                                src={
-                                  post.image_default ||
-                                  "./../../assets/assets/images/blog/post-images/default.jpg"
-                                } // Use default image if no image URL is provided
+                                src={`https://srepublic.in/${post.image_default}`} // Use default image if no image URL is provided
                                 alt={post.title}
                               />
                               <span className="post-date">
@@ -294,7 +291,7 @@ export default function Blog() {
                               <img
                                 className="r-post-img"
                                 loading="lazy"
-                                src={post.image_small}
+                                src={`https://srepublic.in/${post.image_small}`}
                                 alt={post.title}
                               />
                             </div>
