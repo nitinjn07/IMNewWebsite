@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import API_URL from "./../common/config";
-
+import Swal from "sweetalert2"; // Import SweetAlert2
 export default function Alpha() {
   const [form, setForm] = useState({
     startup_name: "",
@@ -71,25 +71,42 @@ export default function Alpha() {
 
       const result = await response.json();
       if (response.ok) {
-        alert(result.message);
-        setForm({
-          startup_name: "",
-          email_id: "",
-          mobile_no: "",
-          country_name: "",
-          industry: "",
-          stage: "",
-          city_name: "",
-          startup_idea: "",
-          password: "",
-          usertype: "alpha",
+        Swal.fire({
+          // Use SweetAlert2 for the popup
+          icon: "success",
+          title: "Success!",
+          text: result.message,
+        }).then(() => {
+          // Clear the form after the user clicks OK
+          setForm({
+            startup_name: "",
+            email_id: "",
+            mobile_no: "",
+            country_name: "",
+            industry: "",
+            stage: "",
+            city_name: "",
+            startup_idea: "",
+            password: "",
+            usertype: "alpha",
+          });
         });
       } else {
-        alert(`Error: ${result.message}`);
+        Swal.fire({
+          // Error popup with SweetAlert2
+          icon: "error",
+          title: "Error!",
+          text: result.message || "Failed to submit data. Please try again.", // Show the error message from the server or a default message
+        });
       }
     } catch (error) {
       console.error("Error submitting data:", error);
-      alert("Failed to submit data. Please try again.");
+      Swal.fire({
+        // Catch-all error popup
+        icon: "error",
+        title: "Error!",
+        text: "Failed to submit data. Please try again.",
+      });
     }
   };
 
@@ -131,13 +148,11 @@ export default function Alpha() {
         <div className="pattern-top-end-dir" />
         <div className="pattern-bottom-start-dir" />
         <div className="container">
-          <div className="row">
-            <div className="col-md-10 mx-auto">
-              <div className="card border-0" id="signup">
+          <div className="row p-5 bg-white" id="signup">
+            <div className="col-md-6 bg-white shadow mx-auto  text-dark p-5">
+              <div className="card">
                 <div className="card-header">
-                  <h2 className="text-white text-center">
-                    Startup <span style={{ color: "#09aff4" }}>Signup</span>
-                  </h2>
+                  <h3 className="text-center">Create your Startup Account</h3>
                 </div>
                 <div className="card-body">
                   <form onSubmit={handleSubmit}>

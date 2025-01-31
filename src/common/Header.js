@@ -246,7 +246,9 @@ export default function Header() {
                 <i class="fa fa-search"></i>
               </div>
               <div class="control">
-                <i class="fa fa-user" title="MY IM"></i>
+                <a href="https://app.incubationmasters.com" target="_blank">
+                  <i class="fa fa-user" title="MY IM"></i>
+                </a>
               </div>
               <div class="dropdown">
                 <button
