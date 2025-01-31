@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-
+import Chatbot from "./Chatbot";
 export default function Footer() {
   const { t } = useTranslation("");
   return (
     <>
+      <Chatbot />
       <footer className="page-footer dark-color-footer" id="page-footer">
         <div
           className="overlay-photo-image-bg"
