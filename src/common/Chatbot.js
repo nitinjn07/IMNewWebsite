@@ -233,7 +233,7 @@ function Chatbot() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/messages",
+        "https://app.incubationmasters.com:5000/api/messages",
         contactForm,
         {
           headers: {
