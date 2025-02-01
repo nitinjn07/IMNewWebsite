@@ -30,7 +30,6 @@ import Webinar from "./pages/Webinar";
 import Blog from "./pages/Blog";
 import Help from "./pages/Help";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
-import Chatbot from "./common/Chatbot";
 
 export default function App() {
   return (
