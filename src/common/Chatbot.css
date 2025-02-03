@@ -44,6 +44,10 @@ body {
     flex-direction: column;
     overflow: hidden;
     animation: slideIn 0.3s ease;
+    transition: width 0.3s ease; /* Add transition for smooth resizing */
+  }
+  .chatbot-window.expanded {
+    width: 800px; /* Expanded width */
   }
   
   .chatbot-window.mobile {
@@ -56,7 +60,7 @@ body {
     right: 0;
     bottom: 0;
     padding-top: 90px; /* Add padding to account for the fixed navbar */
-  }
+}
   
   @keyframes slideIn {
     from {

@@ -341,9 +341,9 @@ function Chatbot() {
             return "fixed inset-0 w-full h-full";
         }
         if (selectedFAQ || selectedHelp) {
-            return "w-[800px] h-[600px]";
+            return "w-[800px] h-[600px]"; // Expanded width for FAQ/Help details
         }
-        return "w-96 h-[600px]";
+        return "w-96 h-[600px]"; // Default size
     };
 
 
@@ -570,7 +570,7 @@ function Chatbot() {
             )}
 
             {isOpen && (
-                <div className={`chatbot-window ${isMobile ? "mobile" : ""}`}>
+                <div className={`chatbot-window ${isMobile ? "mobile" : ""} ${selectedFAQ || selectedHelp ? "expanded" : ""}`}>
                     <div className="chatbot-header">
                         <h1>Support Center</h1>
                         <button onClick={() => setIsOpen(false)}>
