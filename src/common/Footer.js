@@ -7,7 +7,6 @@ export default function Footer() {
 
   return (
     <>
-      <Chatbot />
       <footer className="page-footer dark-color-footer" id="page-footer">
         <div
           className="overlay-photo-image-bg"

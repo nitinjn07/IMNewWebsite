@@ -29,6 +29,7 @@ import Podcast from "./pages/Podcast";
 import Webinar from "./pages/Webinar";
 import Blog from "./pages/Blog";
 import Help from "./pages/Help";
+import Bot from "./pages/Bot";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 export default function App() {
@@ -75,6 +76,7 @@ export default function App() {
         <Route path="/Webinar" element={<Webinar />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/help" element={<Help />} />
+        <Route path="/chatbot" element={<Bot />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
 
