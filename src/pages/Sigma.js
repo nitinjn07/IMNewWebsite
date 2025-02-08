@@ -1,246 +1,145 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Sigma() {
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const toggleFaq = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
+  const faqItems = [
+    {
+      title: "Month 1 - Assessing Product Market Fit",
+      content: [
+        "Establishing metrics for customer acquisition, retention, and revenue growth",
+        "Operational efficiency and scaling processes.",
+        "Financial modelling for growth.",
+        "Constant Customer feedback and constant improvement on the products and services",
+        "Developing strong sales funnels and customer journey maps",
+        "Developing action plans for product improvements and market expansion",
+        "Setting timelines and accountability structures",
+      ],
+    },
+    {
+      title: "Month 2 - Scaling Strategies",
+      content: [
+        "Researching other markets",
+        "Identifying scaling opportunities",
+        "Key performance indicators (KPIs) for growth",
+        "Case studies on successful scaling strategies",
+        "Peer accountability sessions to track progress",
+        "Identify other regions to expand",
+        "Adapting products for other regions’ audiences",
+      ],
+    },
+    {
+      title: "Month 3 -Fundraising and Growth Execution",
+      content: [
+        "Understanding funding options (equity, debt, grants)",
+        "Crafting a pitch deck and financial projections",
+        "Networking event with potential investors and mentors",
+        "Mock pitch sessions with feedback from industry experts",
+        "Finalizing pitch decks based on feedback",
+        "Final pitch preparation: Tailoring presentations for different audiences",
+        "One-on-one coaching sessions with mentors",
+        "Investor meeting simulations",
+        "Understanding term sheets, deal structures and investment agreements",
+        "Negotiation strategies with potential investors",
+        "Building relationships with investors and managing follow-ups",
+        "Understanding term sheets",
+        "Final pitch presentations to a panel of investors",
+        "Reflecting on the journey: Lessons learned and next steps",
+        "Creating a post-program growth plan with mentor support",
+      ],
+    },
+  ];
+
   return (
-    <>
-      <div>
-        <section
-          className="d-flex align-items-center page-hero  inner-page-hero "
-          id="page-hero"
-        >
-          <div
-            className="overlay-photo-image-bg parallax"
-            data-bg-img="/assets/assets/images/hero/inner-page-hero.jpg"
-            data-bg-opacity={1}
-          />
-          <div className="overlay-color" data-bg-opacity=".75" />
-          <div className="container">
-            <div className="hero-text-area centerd">
-              <h1 className="hero-title  wow fadeInUp" data-wow-delay=".2s">
-                Sigma ( Paid )
-              </h1>
-              <nav aria-label="breadcrumb ">
-                <ul className="breadcrumb wow fadeInUp" data-wow-delay=".6s">
-                  <li className="breadcrumb-item">
-                    <a className="breadcrumb-link" href="#0">
-                      <i className="bi bi-house icon " />
-                      home
-                    </a>
-                  </li>
-                  <li className="breadcrumb-item active">Sigma</li>
-                </ul>
-              </nav>
+    <div>
+      <section
+        className="d-flex align-items-center page-hero inner-page-hero"
+        id="page-hero"
+      >
+        <div
+          className="overlay-photo-image-bg parallax"
+          data-bg-img="/assets/assets/images/hero/inner-page-hero.jpg"
+        />
+        <div className="overlay-color" />
+        <div className="container">
+          <div className="hero-text-area centerd">
+            <h1 className="hero-title">Sigma (Paid)</h1>
+            <nav aria-label="breadcrumb">
+              <ul className="breadcrumb">
+                <li className="breadcrumb-item">
+                  <Link to="/" className="breadcrumb-link">
+                    <i className="bi bi-house icon" /> Home
+                  </Link>
+                </li>
+                <li className="breadcrumb-item active">Sigma</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section className="faq mega-section" id="faq">
+        <div className="container">
+          <div className="sec-heading centered">
+            <div className="content-area">
+              <span className="pre-title">
+                Sigma - Business Development and MVP Creation
+              </span>
+              <h2 className="title">
+                <span className="hollow-text">
+                  Sigma Quarter (Service Charge Applicable) –
+                </span>{" "}
+                90 Days
+              </h2>
             </div>
           </div>
-        </section>
 
-        <section className="faq mega-section" id="faq">
-          <div className="shape-top-left" />
-          <div className="shape-bottom-right" />
-          <div className="pattern-top-end-dir" />
-          <div className="pattern-bottom-start-dir" />
-          <div className="container">
-            <div className="sec-heading  centered ">
-              <div className="content-area">
-                <span
-                  className=" pre-title  wow fadeInUp "
-                  data-wow-delay=".2s"
-                >
-                  Gamma - Scaling, funding and expansion
-                </span>
-                <h2 className=" title    wow fadeInUp" data-wow-delay=".4s">
-                  <span className="hollow-text">
-                    Sigma Quarter (Premium Service Charge)
-                  </span>
-                  – 90 days
-                </h2>
+          <div className="faq-accordion" id="accordion">
+            <div className="row">
+              <div className="col-12 col-lg-12">
+                {faqItems.map((faq, index) => (
+                  <div className="card mb-2" key={index}>
+                    <div className="card-header" id={`heading-${index}`}>
+                      <h5 className="mb-0 faq-title">
+                        <button
+                          className={`btn btn-link faq-btn ${
+                            openIndex === index ? "" : "collapsed"
+                          }`}
+                          onClick={() => toggleFaq(index)}
+                        >
+                          {faq.title}
+                        </button>
+                      </h5>
+                    </div>
+                    {openIndex === index && (
+                      <div className="card-body">
+                        <ul className="faq-answer">
+                          {faq.content.map((item, i) => (
+                            <li key={i}>{item}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
-            </div>
-            <div className="faq-accordion " id="accordion">
-              <div className="row">
-                <div className="col-12 col-lg-12">
-                  <div className="card mb-2">
-                    <div className="card-header " id="heading-1">
-                      <h5 className="mb-0 faq-title">
-                        <button
-                          className="btn btn-link  faq-btn  collapsed "
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse-1"
-                          aria-expanded="true"
-                          aria-controls="collapse-1"
-                        >
-                          Month 1 - Assessing Product Market Fit
-                        </button>
-                      </h5>
-                    </div>
-                    <div
-                      className="collapse "
-                      id="collapse-1"
-                      aria-labelledby="collapse-1"
-                      data-bs-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p className="faq-answer">
-                          <ul>
-                            <li>
-                              Establishing metrics for customer acquisition,
-                              retention, and revenue growth
-                            </li>
-                            <li>
-                              Operational efficiency and scaling processes
-                            </li>
-                            <li>Financial modelling for growth</li>
-                            <li>
-                              Constant Customer feedback and constant
-                              improvement on the products and services
-                            </li>
-                            <li>
-                              Developing strong sales funnels and customer
-                              journey maps
-                            </li>
-                            <li>
-                              Developing action plans for product improvements
-                              and market expansion
-                            </li>
-                            <li>
-                              Setting timelines and accountability structures
-                            </li>
-                          </ul>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
 
-                  <div className="card mb-2">
-                    <div className="card-header " id="heading-2">
-                      <h5 className="mb-0 faq-title">
-                        <button
-                          className="btn btn-link  faq-btn  collapsed "
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse-2"
-                          aria-expanded="true"
-                          aria-controls="collapse-2"
-                        >
-                          Month 2 - Scaling Strategies
-                        </button>
-                      </h5>
-                    </div>
-                    <div
-                      className="collapse "
-                      id="collapse-2"
-                      aria-labelledby="collapse-2"
-                      data-bs-parent="#accordion"
-                    >
-                      <div className="card-body">
-                        <p className="faq-answer">
-                          <ul>
-                            <li>Researching other markets</li>
-                            <li>Identifying scaling opportunities</li>
-                            <li>
-                              Key performance indicators (KPIs) for growth
-                            </li>
-                            <li>
-                              Case studies on successful scaling strategies
-                            </li>
-                            <li>
-                              Peer accountability sessions to track progress
-                            </li>
-                            <li>Identify other regions to expand</li>
-                            <li>
-                              Adapting products for other regions&rsquo;
-                              audiences
-                            </li>
-                            <li>Leadership styles and team dynamics</li>
-                            <li>Setting a vision for long-term growth</li>
-                          </ul>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card mb-2">
-                    <div className="card-header " id="heading-3">
-                      <h5 className="mb-0 faq-title">
-                        <button
-                          className="btn btn-link  faq-btn  collapsed "
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse-3"
-                          aria-expanded="true"
-                          aria-controls="collapse-3"
-                        >
-                          Month 3 -Fundraising and Growth Execution
-                        </button>
-                      </h5>
-                    </div>
-                    <div
-                      className="collapse "
-                      id="collapse-3"
-                      aria-labelledby="collapse-3"
-                      data-bs-parent="#accordion3"
-                    >
-                      <div className="card-body">
-                        <p className="faq-answer">
-                          <ul>
-                            <li>
-                              Understanding funding options (equity, debt,
-                              grants)
-                            </li>
-                            <li>
-                              Crafting a pitch deck and financial projections
-                            </li>
-                            <li>
-                              Networking event with potential investors and
-                              mentors
-                            </li>
-                            <li>
-                              Mock pitch sessions with feedback from industry
-                              experts
-                            </li>
-                            <li>Finalizing pitch decks based on feedback</li>
-                            <li>
-                              Final pitch preparation: Tailoring presentations
-                              for different audiences
-                            </li>
-                            <li>One-on-one coaching sessions with mentors</li>
-                            <li>Investor meeting simulations</li>
-                            <li>
-                              Understanding term sheets, deal structures and
-                              investment agreements
-                            </li>
-                            <li>
-                              Negotiation strategies with potential investors
-                            </li>
-                            <li>
-                              Building relationships with investors and managing
-                              follow-ups
-                            </li>
-                            <li>Understanding term sheets</li>
-                            <li>
-                              Final pitch presentations to a panel of investors
-                            </li>
-                            <li>
-                              Reflecting on the journey: Lessons learned and
-                              next steps
-                            </li>
-                            <li>
-                              Creating a post-program growth plan with mentor
-                              support
-                            </li>
-                          </ul>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <button class="cta-btn btn-solid">Subscribe Now</button>
-                </div>
+              {/* Subscribe Button */}
+              <div className="col-md-12 text-center">
+                <Link to="/Signup" className="cta-btn btn-solid">
+                  Subscribe Now
+                </Link>
               </div>
             </div>
           </div>
-        </section>
-      </div>
-    </>
+        </div>
+      </section>
+    </div>
   );
 }
