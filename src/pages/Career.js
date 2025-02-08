@@ -127,7 +127,7 @@ export default function Career() {
           {/* Start first about div*/}
           <div className="content-block  ">
             <form onSubmit={handleSubmit}>
-              <div class="row" id="signup">
+              <div class="row">
                 <div class="form-group col-md-6 my-2">
                   <label>{t("career_page.form.f1")} (*)</label>
                   <input

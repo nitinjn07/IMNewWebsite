@@ -319,16 +319,16 @@ Shakti Sangam Event"
             className="row d-flex align-items-center page-hero  inner-page-hero"
             id="first"
           >
-            <div className="col-md-5 pt-5">
+            <div className="col-md-5 col-6 pt-5">
               <img
                 src="./../assets/images/logo_shakti_sangam.png"
                 className="img-fluid"
               />
             </div>
-            <div className="col-md-7">
-              <img src="./../assets/images/bg.png" />
+            <div className="col-md-7 col-6">
+              <img src="./../assets/images/bg.png" className="img-fluid" />
             </div>
-            <div className="col-md-12 text-center">
+            <div className="col-md-12 col-12 text-center">
               <h1>
                 Celebrating the power of Women at the Biggest Women's Meet of{" "}
                 <br />
@@ -849,33 +849,17 @@ Shakti Sangam Event"
           <div className="row">
             <div className="partner-logo-slider bg-gradient-purple-pink py-5">
               <h2 className="text-center text-white mb-4">Our Partners</h2>
-              <Carousel interval={2000}>
-                {logos
-                  .reduce((acc, _, index) => {
-                    if (index % 4 === 0)
-                      acc.push(logos.slice(index, index + 4));
-                    return acc;
-                  }, [])
-                  .map((group, idx) => (
-                    <Carousel.Item key={idx}>
-                      <div className="d-flex justify-content-center gap-4">
-                        {group.map((logo, index) => (
-                          <img
-                            key={index}
-                            className="img-fluid rounded-circle partner-logo"
-                            src={logo.src}
-                            alt={logo.alt}
-                            style={{
-                              width: "100px",
-                              height: "100px",
-                              objectFit: "cover",
-                            }}
-                          />
-                        ))}
-                      </div>
-                    </Carousel.Item>
-                  ))}
-              </Carousel>
+              <div className="row">
+                {logos.map((logo, index) => (
+                  <div key={index} className="col-md-3 col-6 mb-3">
+                    <img
+                      src={logo.src}
+                      alt={logo.alt}
+                      className="img-fluid rounded shadow"
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
           <hr />
