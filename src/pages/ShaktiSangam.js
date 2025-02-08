@@ -65,13 +65,13 @@ export default function ShaktiSangam() {
     "Vidisha",
   ];
   const logos = [
-    { src: "./../assets/images/slider/1.jpg", alt: "Startup Republic" },
-    { src: "./../assets/images/slider/2.jpg", alt: "Im Global" },
+    { src: "./../assets/images/Slider/1.jpg", alt: "Startup Republic" },
+    { src: "./../assets/images/Slider/2.jpg", alt: "Im Global" },
     {
-      src: "./../assets/images/slider/3.jpg",
+      src: "./../assets/images/Slider/3.jpg",
       alt: "Jabalpur Incubation Center",
     },
-    { src: "./../assets/images/slider/4.jpg", alt: "Radio Mirchi" },
+    { src: "./../assets/images/Slider/4.jpg", alt: "Radio Mirchi" },
 
     // Add more logos as needed
   ];
