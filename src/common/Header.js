@@ -253,7 +253,7 @@ export default function Header() {
               <div class="dropdown">
                 <button
                   type="button"
-                  class="btn btn-solid p-1 dropdown-toggle"
+                  class="cta-btn btn-solid p-1 dropdown-toggle"
                   data-bs-toggle="dropdown"
                 >
                   <i class="fa fa-globe"></i>

@@ -192,7 +192,7 @@ export default function Career() {
                   )}
                 </div>
                 <div class="form-group col-md-12 my-2">
-                  <input type="submit" className="btn btn-solid" />
+                  <input type="submit" className="cta-btn btn-solid" />
                 </div>
               </div>
             </form>
