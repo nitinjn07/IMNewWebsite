@@ -134,12 +134,6 @@ export default function Footer() {
                       Blog
                     </Link>
                   </li>
-                  <li className="footer-menu-item">
-                    <i className="bi bi-arrow-right icon " />
-                    <Link className="footer-menu-link" to="/help">
-                      Help
-                    </Link>
-                  </li>
                 </ul>
               </div>
             </div>
